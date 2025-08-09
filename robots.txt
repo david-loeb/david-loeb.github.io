@@ -1,1 +1,1 @@
-Sitemap: https://david-loeb.github.io/sitemap.xml
+Sitemap: https://davidloeb.co/sitemap.xml
