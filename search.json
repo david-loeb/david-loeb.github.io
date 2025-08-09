@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Invited blog post for Minute Metrix, a startup that has built a database of tens of thousands of searchable school board meeting documents. I used the feature of their database that transforms the school board documents into tabular data and performed a descriptive analysis of school district budget cut discussions. I highly recommend scheduling a demo of their site for anybody who is interested in using school board meeting documents in their research (or for any other purpose)."
+  },
+  {
+    "objectID": "blog.html#exploring-school-board-budget-cut-mentions-with-minute-metrix",
+    "href": "blog.html#exploring-school-board-budget-cut-mentions-with-minute-metrix",
+    "title": "Blog",
+    "section": "",
+    "text": "Invited blog post for Minute Metrix, a startup that has built a database of tens of thousands of searchable school board meeting documents. I used the feature of their database that transforms the school board documents into tabular data and performed a descriptive analysis of school district budget cut discussions. I highly recommend scheduling a demo of their site for anybody who is interested in using school board meeting documents in their research (or for any other purpose)."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "R package that implements the efficient difference-in-differences and event study estimators developed by Chen, Sant’Anna, and Xie (2025) in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by Callaway and Sant’Anna (2021). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.\nVisit the {edid}  GitHub page for a package overview, installation instructions and source code."
+  },
+  {
+    "objectID": "software.html#edid-efficient-difference-in-differences-estimator",
+    "href": "software.html#edid-efficient-difference-in-differences-estimator",
+    "title": "Software",
+    "section": "",
+    "text": "R package that implements the efficient difference-in-differences and event study estimators developed by Chen, Sant’Anna, and Xie (2025) in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by Callaway and Sant’Anna (2021). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.\nVisit the {edid}  GitHub page for a package overview, installation instructions and source code."
+  },
+  {
+    "objectID": "software.html#missing-data-scenarios-in-rcts",
+    "href": "software.html#missing-data-scenarios-in-rcts",
+    "title": "Software",
+    "section": " Missing Data Scenarios in RCTs",
+    "text": "Missing Data Scenarios in RCTs\nR Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:\n\nListwise deletion\nMean / dummy variable imputation\nFull information maximum likelihood\nMultiple imputation\n\nThe app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the “true” result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).\nVist the app webpage to try it out."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research covers a range of topics in education, public policy, and quantitative methods, with a particular focus on K-12 education funding."
+  },
+  {
+    "objectID": "research.html#peer-reviewed-journal-articles",
+    "href": "research.html#peer-reviewed-journal-articles",
+    "title": "Research",
+    "section": "Peer-Reviewed Journal Articles",
+    "text": "Peer-Reviewed Journal Articles\n\nAbsence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\nEricka S. Weathers, Ismael G. Muñoz, and David Loeb. 2023. The High School Journal."
+  },
+  {
+    "objectID": "research.html#policy-reports-briefs",
+    "href": "research.html#policy-reports-briefs",
+    "title": "Research",
+    "section": "Policy Reports & Briefs",
+    "text": "Policy Reports & Briefs\n\nThe Benefits of Adequacy: Estimating the Economic Impacts of Pennsylvania’s Basic Education Funding Commission Proposal\n\nDavid Loeb, Katie Pullom, and Brooks Bowden. 2024. Center for Benefit-Cost Studies of Education.\n\nPress: The Philadelphia Inqurier, Chalkbeat, KYW Newsradio, The Philadelphia Tribune, Spotlight PA\n\n\n\n\nThe Availability of Truancy Data Across States\nEricka S. Weathers and David Loeb. 2022. The Learning Curve, Urban Institute."
+  },
+  {
+    "objectID": "research.html#papers-in-progress",
+    "href": "research.html#papers-in-progress",
+    "title": "Research",
+    "section": "Papers in Progress",
+    "text": "Papers in Progress\n\nThe Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing\nwith Katie Pullom\n\n\nDo School Finance Reforms Reduce Non-Education State Spending?\nwith Chris Wodicka\n\n\nMissing Data Handling in Education RCTs: A Practitioner’s Guide\nwith Catherine Asher and Robin Jacob\n\n\nSchool District Demographic Change and the Willingness to Fund Local Public Schools"
+  },
+  {
+    "objectID": "research.html#conference-presentations",
+    "href": "research.html#conference-presentations",
+    "title": "Research",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\n*presenting author\n\nThe Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing\nDavid Loeb* and Katie Pullom. 2025. Paper, Association for Public Policy Analysis and Management.\n\n\nA National RCT of the Impact of Public Montessori Schools on Early Childhood Outcomes\nDavid Loeb*, Angeline S. Lillard, Karen Manship, Emily Daggett, and Juliette Berg. 2025. Paper, Society for Research on Educational Effectiveness.\n\n\nThe Impact of the Montessori Early Childhood Model in PK4 and Kindergarten\nAngeline S. Lillard, Mark Lachowicz, Juliette Berg, Karen Manship, Emily Daggett, and David Loeb*. 2025. Paper, American Education Research Association.\n\n\nTypologizing Truancy Policy: A Cross-State Critical Analysis of Truancy Policies Using Mixed Methods\nEricka S. Weathers, David Loeb, and Rebecca Rock. 2025. Roundtable, American Education Research Association.\n\n\nMedicaid “Free Care” Reversal’s Impact on District Staffing and Finances\nDavid Loeb* and Katie Pullom. 2025. Paper, Association for Education Finance and Policy.\n\n\nSegregation and Willingness to Fund Public Schools at the Local and State Levels\nDavid Loeb*. 2024. Paper, Association for Public Policy Analysis and Management.\n\n\nIdentifying Curriculum and Book Restriction Activity Using School Board Meeting Minutes\nDavid Loeb*. 2024. Poster, Society for Research on Educational Effectiveness.\n\n\nThe Role of Home Values in Linking Segregation and School District Funding Disparities\nDavid Loeb*. 2024. Paper, American Education Research Association.\n\n\nAbsence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\nEricka S. Weathers, Ismael G. Muñoz, and David Loeb*. 2023. Poster, Association for Education Finance and Policy."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "A two-hour workshop conducted for the University of Michigan Youth Policy Lab in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.\n\n\n\nAn introduction to R from the ground up conducted for my research team of five master’s students in the winter and spring of 2024. We covered the basic building blocks of R, data importing, cleaning and wrangling, and simple descriptive analyses.\n\n\n\nAn introduction to web scraping in Python conducted for a small group doctoral student peers in February 2023."
+  },
+  {
+    "objectID": "teaching.html#workshops",
+    "href": "teaching.html#workshops",
+    "title": "Teaching",
+    "section": "",
+    "text": "A two-hour workshop conducted for the University of Michigan Youth Policy Lab in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.\n\n\n\nAn introduction to R from the ground up conducted for my research team of five master’s students in the winter and spring of 2024. We covered the basic building blocks of R, data importing, cleaning and wrangling, and simple descriptive analyses.\n\n\n\nAn introduction to web scraping in Python conducted for a small group doctoral student peers in February 2023."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\nSociology of Education (EDUC 5782)\nTeaching assistant for this master’s level course at the University of Pennsylvania in the Fall of 2024. The instructor Dr. Ericka Weathers and I created the course from scratch. I lectured on school funding policy and inequality and gave a brief primer on the fundamentals of the U.S. education system."
+  },
+  {
+    "objectID": "teaching.html#mentorship",
+    "href": "teaching.html#mentorship",
+    "title": "Teaching",
+    "section": "Mentorship",
+    "text": "Mentorship\nI mentored a team of five education policy master’s students at the University of Pennsylvania during the winter and spring of 2024. I taught them how to work with data in R and demonstrated the general quantitative research process. I continued to mentor two of the students after they graduated, working with them one-on-one to develop their quantitative research skills and supporting one through her PhD application process."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Loeb",
+    "section": "",
+    "text": "Hello!\nI am a Ph.D. candidate in Education Policy at the University of Pennsylvania Graduate School of Education and will obtain a dual M.A. in Statistics and Data Science from the Wharton School. I am also an Institute of Education Sciences Predoctoral Fellow. I recently completed a yearlong fellowship with the American Institutes for Research (AIR) where I conducted the statistical analyses for a national randomized impact evaluation of public Montessori preschool and supported the development of a state child care cost model.\nI primarily research policies that affect resources for low-income students and families. I study K-12 finance policies that impact school resources and tax credit and safety net policies that provide resources directly to families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design.\nI really enjoy statistics and programming; see the Software page for details on my R package that implements the efficient difference-in-differences estimator and web app that demonstrates the performance of missing data handling strategies in RCTs. I also enjoy sharing the things I learn; I plan to continue populating this site with materials that I hope are useful!"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "David Loeb",
+    "section": "",
+    "text": "Download CV"
+  }
+]
