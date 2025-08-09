@@ -5,6 +5,7 @@ project:
 
 website:
   title: "David Loeb"
+  favicon: files/logo.svg
   navbar:
     left:
       - research.qmd
