@@ -1,0 +1,35 @@
+project:
+  type: website
+  resources:
+    - "files/*"
+
+website:
+  title: "David Loeb"
+  navbar:
+    left:
+      - research.qmd
+      - software.qmd
+      - teaching.qmd
+      - blog.qmd
+      - href: cv.qmd
+        text: "CV"
+    search: false
+  page-footer: 
+    right: "Built with [{{< iconify simple-icons quarto >}} Quarto](https://quarto.org)<br>View source on [{{< iconify fa github >}} GitHub](https://github.com/david-loeb/david-loeb.github.io)"
+    background: light
+
+format:
+  html:
+    theme:
+      #light: pulse
+      #light: yeti
+      light: flatly
+      #light: [flatly, themes/flatly-purple.scss]
+      #light: [flatly, themes/flatly-blue.scss]
+      dark: darkly
+      #dark: [darkly, themes/darkly-purple.scss]
+    css: styles.css
+    respect-user-color-scheme: true
+
+
+

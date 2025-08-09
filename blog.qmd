@@ -1,0 +1,7 @@
+---
+title: "Blog"
+---
+
+## [Exploring School Board Budget Cut Mentions with Minute Metrix](https://www.minutemetrix.com/blog/exploring-school-board-budget-cut-mentions-with-minute-metrix)
+
+Invited blog post for [Minute Metrix](https://www.minutemetrix.com), a startup that has built a database of tens of thousands of searchable school board meeting documents. I used the feature of their database that transforms the school board documents into tabular data and performed a descriptive analysis of school district budget cut discussions. I highly recommend scheduling a demo of their site for anybody who is interested in using school board meeting documents in their research (or for any other purpose).

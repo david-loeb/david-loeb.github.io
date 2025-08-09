@@ -1,0 +1,25 @@
+---
+title: "David Loeb"
+subtitle: "Ph.D. Candidate, Education Policy<br>University of Pennsylvania"
+image: files/headshot.jpg
+page-layout: full
+about: 
+  template: trestles
+  image-shape: rounded
+  image-width: 10em
+  links: 
+    - text: "{{< iconify fa github size=1.5em >}}"
+      href: https://github.com/david-loeb
+    - text: "{{< iconify academicons google-scholar size=1.6em >}}"
+      href: https://scholar.google.com/citations?user=BpjqU28AAAAJ&hl=en
+    - text: "{{< iconify academicons orcid size=1.5em >}}"
+      href: https://orcid.org/0009-0003-6564-3867
+---
+
+# Hello!
+
+I am a Ph.D. candidate in Education Policy at the [University of Pennsylvania Graduate School of Education](https://www.gse.upenn.edu) and will obtain a dual M.A. in Statistics and Data Science from the [Wharton School](https://www.wharton.upenn.edu). I am also an [Institute of Education Sciences Predoctoral Fellow](https://www.gse.upenn.edu/student-life/enhancing-your-journey/research-opportunities/institute-education-sciences-predoctoral-training-program). I recently completed a yearlong fellowship with the [American Institutes for Research (AIR)](https://www.air.org) where I conducted the statistical analyses for a national randomized impact evaluation of public Montessori preschool and supported the development of a state child care cost model.
+
+I primarily research policies that affect resources for low-income students and families. I study K-12 finance policies that impact school resources and tax credit and safety net policies that provide resources directly to families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design.
+
+I really enjoy statistics and programming; see the [Software](software.qmd) page for details on my [R package](https://github.com/david-loeb/edid) that implements the [efficient difference-in-differences](https://arxiv.org/abs/2506.17729) estimator and [web app](https://davidloeb.shinyapps.io/missing-data/) that demonstrates the performance of missing data handling strategies in RCTs. I also enjoy sharing the things I learn; I plan to continue populating this site with materials that I hope are useful!

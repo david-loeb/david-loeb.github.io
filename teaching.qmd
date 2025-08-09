@@ -1,0 +1,39 @@
+---
+title: "Teaching"
+---
+
+## Workshops
+
+### Modern Missing Data Handling for Policy Research and RCTs
+
+A two-hour workshop conducted for the [University of Michigan Youth Policy Lab](https://youthpolicylab.umich.edu) in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.
+
+::: {.content-hidden}
+The workshop slides are available to view here. R code that implements all of the methods discussed is available on {{< iconify fa github >}} GitHub.
+:::
+
+### {{< iconify mdi language-r >}} R Fundamentals
+
+An introduction to R from the ground up conducted for my research team of five master's students in the winter and spring of 2024. We covered the basic building blocks of R, data importing, cleaning and wrangling, and simple descriptive analyses. 
+
+::: {.content-hidden}
+You can access the workshop code on {{< iconify fa github >}} GitHub.
+:::
+
+### {{< iconify fa-brands python >}} Web Scraping with Python
+
+An introduction to web scraping in Python conducted for a small group doctoral student peers in February 2023. 
+
+::: {.content-hidden}
+You can access the workshop code on {{< iconify fa github >}} GitHub.
+:::
+
+## Courses
+
+### Sociology of Education (EDUC 5782)
+
+Teaching assistant for this master's level course at the University of Pennsylvania in the Fall of 2024. The instructor Dr. Ericka Weathers and I created the course from scratch. I lectured on school funding policy and inequality and gave a brief primer on the fundamentals of the U.S. education system.
+
+## Mentorship
+
+I mentored a team of five education policy master's students at the University of Pennsylvania during the winter and spring of 2024. I taught them how to work with data in R and demonstrated the general quantitative research process. I continued to mentor two of the students after they graduated, working with them one-on-one to develop their quantitative research skills and supporting one through her PhD application process.

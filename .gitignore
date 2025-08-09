@@ -1,0 +1,5 @@
+/themes/_*
+.DS_Store
+/.quarto/
+/_wkshts/
+/_site/

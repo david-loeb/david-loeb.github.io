@@ -1,0 +1,81 @@
+---
+title: "Research"
+---
+
+My research covers a range of topics in education, public policy, and quantitative methods, with a particular focus on K-12 education funding.
+
+## Peer-Reviewed Journal Articles
+
+##### [**Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania**](https://doi.org/10.1353/hsj.2023.a930442)
+
+Ericka S. Weathers, Ismael G. Muñoz, and **David Loeb**. 2023. *The High School Journal*.
+
+## Policy Reports & Briefs
+
+##### [**The Benefits of Adequacy: Estimating the Economic Impacts of Pennsylvania's Basic Education Funding Commission Proposal**](https://www.cbcse.org/publications/pa2024)
+
+:::{.listp}
+**David Loeb**, Katie Pullom, and Brooks Bowden. 2024. Center for Benefit-Cost Studies of Education.
+
+- *Press*: [*The Philadelphia Inqurier*](https://www.inquirer.com/education/pennsylvania-education-funding-benefits-school-penn-research-20240619.html), [*Chalkbeat*](https://www.chalkbeat.org/philadelphia/2024/06/20/upenn-report-51-billion-k12-school-spending-hike-will-yield-benefits-exceeding-cost/), [*KYW Newsradio*](https://www.audacy.com/kywnewsradio/news/local/penn-analysis-supports-pa-education-funding-boost), [*The Philadelphia Tribune*](https://www.phillytrib.com/news/local_news/proposed-5b-funding-formula-would-help-struggling-schools-in-pennsylvania-new-report-says/article_0caa2dfc-eb78-54fb-a791-aae129f17fa7.html), [*Spotlight PA*](https://www.spotlightpa.org/news/2024/06/budget-deadline-education-funding-surplus-deal-pennsylvania-taxes/)
+:::
+
+##### [**The Availability of Truancy Data Across States**](https://www.urban.org/research/publication/availability-truancy-data-across-states)
+
+Ericka S. Weathers and **David Loeb**. 2022. *The Learning Curve*, Urban Institute.
+
+## Papers in Progress
+
+##### **The Impact of the Medicaid "Free Care" Reversal on School District Finances and Staffing**
+
+with Katie Pullom
+
+##### **Do School Finance Reforms Reduce Non-Education State Spending?**
+
+with Chris Wodicka
+
+##### **Missing Data Handling in Education RCTs: A Practitioner's Guide**
+
+with Catherine Asher and Robin Jacob
+
+##### **School District Demographic Change and the Willingness to Fund Local Public Schools**
+
+## Conference Presentations
+
+\**presenting author*
+
+##### **The Impact of the Medicaid "Free Care" Reversal on School District Finances and Staffing**
+
+**David Loeb**\* and Katie Pullom. 2025. Paper, Association for Public Policy Analysis and Management.
+
+##### **A National RCT of the Impact of Public Montessori Schools on Early Childhood Outcomes**
+
+**David Loeb**\*, Angeline S. Lillard, Karen Manship, Emily Daggett, and Juliette Berg. 2025. Paper, Society for Research on Educational Effectiveness.
+
+##### **The Impact of the Montessori Early Childhood Model in PK4 and Kindergarten**
+
+Angeline S. Lillard, Mark Lachowicz, Juliette Berg, Karen Manship, Emily Daggett, and **David Loeb**\*. 2025. Paper, American Education Research Association.
+
+##### **Typologizing Truancy Policy: A Cross-State Critical Analysis of Truancy Policies Using Mixed Methods**
+
+Ericka S. Weathers, **David Loeb**, and Rebecca Rock. 2025. Roundtable, American Education Research Association.
+
+##### **Medicaid “Free Care” Reversal’s Impact on District Staffing and Finances**
+
+**David Loeb**\* and Katie Pullom. 2025. Paper, Association for Education Finance and Policy.
+
+##### **Segregation and Willingness to Fund Public Schools at the Local and State Levels**
+
+**David Loeb**\*. 2024. Paper, Association for Public Policy Analysis and Management.
+
+##### **Identifying Curriculum and Book Restriction Activity Using School Board Meeting Minutes**
+
+**David Loeb**\*. 2024. Poster, Society for Research on Educational Effectiveness.
+
+##### **The Role of Home Values in Linking Segregation and School District Funding Disparities**
+
+**David Loeb**\*. 2024. Paper, American Education Research Association.
+
+##### **Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania**
+
+Ericka S. Weathers, Ismael G. Muñoz, and **David Loeb**\*. 2023. Poster, Association for Education Finance and Policy.

@@ -1,0 +1,26 @@
+---
+title: "Software"
+---
+
+## [{{< iconify mdi language-r >}} {edid}: Efficient difference-in-differences estimator](https://github.com/david-loeb/edid)
+
+R package that implements the efficient difference-in-differences and event study estimators developed by [Chen, Sant'Anna, and Xie (2025)](https://arxiv.org/abs/2506.17729) in "Efficient Difference-in-Differences and Event Study Estimators." The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by [Callaway and Sant'Anna (2021)](https://www.sciencedirect.com/science/article/abs/pii/S0304407620303948). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)'s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.
+
+Visit the [{edid} {{< iconify fa github >}} GitHub page](https://github.com/david-loeb/edid) for a package overview, installation instructions and source code.
+
+## [{{< iconify mdi language-r >}} Missing Data Scenarios in RCTs](https://davidloeb.shinyapps.io/missing-data/)
+
+R Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:
+
+- Listwise deletion
+- Mean / dummy variable imputation
+- Full information maximum likelihood
+- Multiple imputation
+
+The app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the "true" result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).
+
+[Vist the app webpage](https://davidloeb.shinyapps.io/missing-data/){target="_blank"} to try it out.
+
+::: {.content-hidden}
+You can also view the [source code on {{< iconify fa github >}} GitHub](www.needtoadd.com).
+:::
