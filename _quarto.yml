@@ -31,6 +31,8 @@ format:
       #dark: [darkly, themes/darkly-purple.scss]
     css: styles.css
     respect-user-color-scheme: true
+    filters:
+      - target-blank.lua
 
 
 
