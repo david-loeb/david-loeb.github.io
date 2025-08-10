@@ -10,10 +10,13 @@ about:
   links: 
     - text: "{{< iconify fa github size=1.5em >}}"
       href: https://github.com/david-loeb
+      target: _blank
     - text: "{{< iconify academicons google-scholar size=1.6em >}}"
       href: https://scholar.google.com/citations?user=BpjqU28AAAAJ&hl=en
+      target: _blank
     - text: "{{< iconify academicons orcid size=1.5em >}}"
       href: https://orcid.org/0009-0003-6564-3867
+      target: _blank
 ---
 
 # Hello!
