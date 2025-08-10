@@ -6,7 +6,7 @@ title: "Teaching"
 
 ### Modern Missing Data Handling for Policy Research and RCTs
 
-A two-hour workshop conducted for the [University of Michigan Youth Policy Lab](https://youthpolicylab.umich.edu) in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.
+A two-hour workshop conducted for the [University of Michigan Youth Policy Lab](https://youthpolicylab.umich.edu){target="_blank"} in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.
 
 ::: {.content-hidden}
 The workshop slides are available to view here. R code that implements all of the methods discussed is available on {{< iconify fa github >}} GitHub.
