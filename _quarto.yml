@@ -5,9 +5,9 @@ project:
 
 website:
   title: "David Loeb"
-  favicon: files/favicon.svg
+  favicon: files/favicon-teal.svg
   navbar:
-    logo: files/navbar-logo.svg
+    logo: files/navbar-logo-teal.svg
     left:
       - research.qmd
       - software.qmd
