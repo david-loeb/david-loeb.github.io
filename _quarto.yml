@@ -7,7 +7,7 @@ website:
   title: "David Loeb"
   favicon: files/favicon.svg
   navbar:
-    logo: files/favicon.svg
+    logo: files/navbar-logo.svg
     left:
       - research.qmd
       - software.qmd
