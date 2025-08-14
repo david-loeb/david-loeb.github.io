@@ -8,7 +8,7 @@ R package that implements the efficient difference-in-differences and event stud
 
 Visit the [{edid} {{< iconify fa github >}} GitHub page](https://github.com/david-loeb/edid){target="_blank"} for a package overview, installation instructions and source code.
 
-## [{{< iconify mdi language-r >}} Missing Data Scenarios in RCTs](https://davidloeb.shinyapps.io/missing-data/){target="_blank"}
+## [{{< iconify mdi language-r >}} Missing Data Scenarios in RCTs](https://davidloeb-missing-data-app.share.connect.posit.cloud/){target="_blank"}
 
 R Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:
 
@@ -19,8 +19,4 @@ R Shiny web application that demonstrates the performance of various approaches 
 
 The app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the "true" result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).
 
-[Vist the app webpage](https://davidloeb.shinyapps.io/missing-data/){target="_blank"} to try it out.
-
-::: {.content-hidden}
-You can also view the [source code on {{< iconify fa github >}} GitHub](www.needtoadd.com){target="_blank"}.
-:::
+[Vist the app webpage](https://davidloeb-missing-data-app.share.connect.posit.cloud/){target="_blank"} to try it out. You can also view the [source code on {{< iconify fa github >}} GitHub](https://github.com/david-loeb/missing-data-app){target="_blank"}.
