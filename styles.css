@@ -11,3 +11,17 @@ h5 {
 .listp p {
   margin-bottom: 0px;
 }
+
+/*
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  text-decoration: none !important;
+}
+*/
