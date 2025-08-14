@@ -10,13 +10,9 @@ A two-hour workshop conducted for the [University of Michigan Youth Policy Lab](
 
 [View the workshop slides here](https://davidloeb-missing-data-wkshp.share.connect.posit.cloud/){target="_blank"}. R code that implements all of the methods discussed and the workshop slides source code are [available on {{< iconify fa github >}} GitHub](https://github.com/david-loeb/missing-data-wkshp){target="_blank"}.
 
-### {{< iconify mdi language-r >}} R Fundamentals
+### {{< iconify mdi language-r >}} [R Fundamentals](https://github.com/david-loeb/r-fundamentals-wkshp){target="_blank"}
 
-An introduction to R from the ground up conducted for my research team of five master's students in the winter and spring of 2024. We covered the basic building blocks of R, data importing, cleaning and wrangling, and simple descriptive analyses. 
-
-::: {.content-hidden}
-You can access the workshop code on {{< iconify fa github >}} GitHub.
-:::
+An introduction to R from the ground up conducted for my research team of five master's students at the University of Pennsylvania in the winter and spring of 2024. We covered the basic building blocks of R, creating datasets by merging, cleaning and wrangling publicly avaialable data, reshaping data, and simple descriptive analyses. The materials are [available on {{< iconify fa github >}} GitHub](https://github.com/david-loeb/r-fundamentals-wkshp){target="_blank"}.
 
 ### {{< iconify fa-brands python >}} [Web Scraping with Python](https://davidloeb-web-scraping-py-wkshp.share.connect.posit.cloud/){target="_blank"}
 
