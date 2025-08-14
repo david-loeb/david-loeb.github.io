@@ -12,7 +12,7 @@ website:
       - software.qmd
       - teaching.qmd
       - blog.qmd
-      - href: cv.qmd
+      - href: CV.qmd
         text: "CV"
     search: false
   page-footer: 
