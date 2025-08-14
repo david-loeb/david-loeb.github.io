@@ -1,4 +1,5 @@
 ---
+pagetitle: "CV"
 engine: knitr
 freeze: false
 cv:
