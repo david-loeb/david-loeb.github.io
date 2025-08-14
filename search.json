@@ -105,8 +105,8 @@
     "text": "Hello!\nI am a Ph.D. candidate in Education Policy at the University of Pennsylvania Graduate School of Education and will obtain a dual A.M. in Statistics and Data Science from the Wharton School. I am also an Institute of Education Sciences Predoctoral Fellow. I recently completed a yearlong fellowship with the American Institutes for Research (AIR) where I conducted the statistical analyses for a national randomized controlled trial of public Montessori preschool and supported the development of a state child care cost model.\nI primarily research policies that affect resources for low-income students and families. I study K-12 finance policies that impact school resources and tax credit and safety net policies that provide resources directly to families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design.\nI really enjoy statistics and programming; see the software page for details on my R package that implements the efficient difference-in-differences estimator and web app that demonstrates the performance of missing data handling strategies in RCTs. I also enjoy sharing the things I learn; I plan to continue populating this site with materials that I hope are useful!"
   },
   {
-    "objectID": "CV.html",
-    "href": "CV.html",
+    "objectID": "cv.html",
+    "href": "cv.html",
     "title": "David Loeb",
     "section": "",
     "text": "Download CV"
