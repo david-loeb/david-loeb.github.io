@@ -2,13 +2,13 @@
 title: "Software"
 ---
 
-## [{{< iconify mdi language-r >}} {edid}: Efficient difference-in-differences estimator](https://github.com/david-loeb/edid){target="_blank"}
+## {{< iconify mdi language-r >}} [{edid}: Efficient difference-in-differences estimator](https://github.com/david-loeb/edid){target="_blank"}
 
 R package that implements the efficient difference-in-differences and event study estimators developed by [Chen, Sant'Anna, and Xie (2025)](https://arxiv.org/abs/2506.17729){target="_blank"} in "Efficient Difference-in-Differences and Event Study Estimators." The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by [Callaway and Sant'Anna (2021)](https://www.sciencedirect.com/science/article/abs/pii/S0304407620303948){target="_blank"}. It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)'s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.
 
 Visit the [{edid} {{< iconify fa github >}} GitHub page](https://github.com/david-loeb/edid){target="_blank"} for a package overview, installation instructions and source code.
 
-## [{{< iconify mdi language-r >}} Missing Data Scenarios in RCTs](https://davidloeb-missing-data-app.share.connect.posit.cloud/){target="_blank"}
+## {{< iconify mdi language-r >}} [Missing Data Scenarios in RCTs](https://davidloeb-missing-data-app.share.connect.posit.cloud/){target="_blank"}
 
 R Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:
 

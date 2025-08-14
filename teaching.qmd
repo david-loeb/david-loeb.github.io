@@ -18,13 +18,9 @@ An introduction to R from the ground up conducted for my research team of five m
 You can access the workshop code on {{< iconify fa github >}} GitHub.
 :::
 
-### {{< iconify fa-brands python >}} Web Scraping with Python
+### {{< iconify fa-brands python >}} [Web Scraping with Python](https://davidloeb-web-scraping-py-wkshp.share.connect.posit.cloud/){target="_blank"}
 
-An introduction to web scraping in Python conducted for a small group doctoral student peers in February 2023. 
-
-::: {.content-hidden}
-You can access the workshop code on {{< iconify fa github >}} GitHub.
-:::
+An introduction to web scraping in Python conducted for a small group doctoral students in September 2023. [View the workshop slides here](https://davidloeb-web-scraping-py-wkshp.share.connect.posit.cloud/){target="_blank"}. A Python script with code for the workflow discussed and the workshop slides source code are [available on {{< iconify fa github >}} GitHub](https://github.com/david-loeb/web-scraping-py-wkshp){target="_blank"}.
 
 ## Courses
 
