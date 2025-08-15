@@ -2,6 +2,8 @@
 title: "Teaching"
 ---
 
+I have taught several research and programming workshops, served as a teaching assistant, and mentored education policy master's students.
+
 ## Workshops
 
 ### [Missing Data Handling for Policy Research and RCTs](https://davidloeb-missing-data-wkshp.share.connect.posit.cloud/){target="_blank"}

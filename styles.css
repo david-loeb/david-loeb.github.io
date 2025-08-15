@@ -12,7 +12,7 @@ h5 {
   margin-bottom: 0px;
 }
 
-/*
+/* Code for modifying link underlining
 a {
   text-decoration: none;
 }
@@ -23,5 +23,28 @@ a:hover {
 
 nav a {
   text-decoration: none !important;
+}
+*/
+
+/* Code for animated underline of navbar links on hover 
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  transition: all ease-in-out 0.2s;
+  height: 2px;
+  width: 0%;
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0%
 }
 */
