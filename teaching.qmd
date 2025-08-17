@@ -28,7 +28,7 @@ An introduction to web scraping in Python conducted for a small group doctoral s
 
 ### Sociology of Education (EDUC 5782)
 
-Teaching assistant for this master's level course at the University of Pennsylvania in the Fall of 2024. The instructor Dr. Ericka Weathers and I created the course from scratch. I lectured on school funding policy and inequality and gave a brief primer on the fundamentals of the U.S. education system.
+Teaching assistant for this master's level course at the University of Pennsylvania in the fall of 2024. The instructor Dr. Ericka Weathers and I created the course from scratch. I lectured on school funding policy and inequality and gave a brief primer on the fundamentals of the U.S. education system.
 
 ## Mentorship
 
