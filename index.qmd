@@ -27,4 +27,4 @@ I primarily research policies that affect resources for low-income students and 
 
 I really enjoy statistics and programming; see the [Software](software.qmd) page for details on my [R package](https://github.com/david-loeb/edid){target="_blank"} that implements the efficient difference-in-differences estimator and [web app](https://davidloeb-missing-data-app.share.connect.posit.cloud/){target="_blank"} that demonstrates the performance of missing data handling strategies in RCTs. I also enjoy sharing the things I learn; I plan to continue populating this site with materials that I hope are useful!
 
-***I am on the 2025-26 job market; please feel free to contact me via the email on my [CV](cv.qmd).***
+*I am on the 2025-26 job market; please feel free to contact me via the email on my [CV](cv.qmd).*
