@@ -23,6 +23,6 @@ about:
 
 I am a Ph.D. candidate in Education Policy at the [University of Pennsylvania Graduate School of Education](https://www.gse.upenn.edu){target="_blank"} and will obtain a dual A.M. in Statistics and Data Science from the [Wharton School](https://www.wharton.upenn.edu){target="_blank"}. I am also an [Institute of Education Sciences Predoctoral Fellow](https://www.gse.upenn.edu/student-life/enhancing-your-journey/research-opportunities/institute-education-sciences-predoctoral-training-program){target="_blank"}. I recently completed a yearlong fellowship with the [American Institutes for Research (AIR)](https://www.air.org){target="_blank"} where I conducted the statistical analyses for a national randomized controlled trial of public Montessori preschool and supported the development of a state child care cost model.
 
-I primarily research policies that affect resources for low-income students and families with a particular focus on K-12 education funding policies. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design.
+I primarily research K-12 education funding and other policies that affect resources for low-income students and families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design.
 
 *I am on the 2025-26 job market; please feel free to contact me via the email on my [CV](cv.qmd).*
