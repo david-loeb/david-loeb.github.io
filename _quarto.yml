@@ -11,9 +11,9 @@ website:
       - research.qmd
       - software.qmd
       - teaching.qmd
-      - blog.qmd
       - href: cv.qmd
         text: "CV"
+      - blog.qmd
     search: false
   page-footer: 
     right: 'Built with [{{< iconify simple-icons quarto >}} Quarto](https://quarto.org){target="_blank"}<br>View source on [{{< iconify fa github >}} GitHub](https://github.com/david-loeb/david-loeb.github.io){target="_blank"}'
