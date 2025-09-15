@@ -3,7 +3,7 @@ pagetitle: "CV"
 engine: knitr
 freeze: false
 cv:
-  pdf: files/CV_DavidLoeb_2025-08.pdf
+  pdf: files/CV_DavidLoeb_2025-09.pdf
 ---
 
 ```{css echo=FALSE}
