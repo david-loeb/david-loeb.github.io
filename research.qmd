@@ -6,25 +6,21 @@ My research covers a range of topics in education, public policy, and quantitati
 
 ## Peer-Reviewed Journal Articles
 
+##### [**A National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten**](https://osf.io/vuc42/)
+
+Angeline S. Lillard, **David Loeb**, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett. In press. *Proceedings of the National Academy of Sciences (PNAS).* <br>
+[Open Science Framework Page](https://osf.io/vuc42/) | [Replication Code](https://github.com/david-loeb/montessori-rct)
+
 ##### [**Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania**](https://doi.org/10.1353/hsj.2023.a930442){target="_blank"}
 
 Ericka S. Weathers, Ismael G. Muñoz, and **David Loeb**. 2023. *The High School Journal*.
-
-### *Under Review*
-
-##### **A National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten**
-
-Angeline S. Lillard, **David Loeb**, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett. R&R at *Proceedings of the National Academy of Sciences (PNAS).*
 
 ## Policy Reports & Briefs
 
 ##### [**The Benefits of Adequacy: Estimating the Economic Impacts of Pennsylvania's Basic Education Funding Commission Proposal**](https://www.cbcse.org/publications/pa2024){target="_blank"}
 
-:::{.listp}
-**David Loeb**, Katie Pullom, and Brooks Bowden. 2024. Center for Benefit-Cost Studies of Education.
-
-- *Press*: [*The Philadelphia Inqurier*](https://www.inquirer.com/education/pennsylvania-education-funding-benefits-school-penn-research-20240619.html){target="_blank"}, [*Chalkbeat*](https://www.chalkbeat.org/philadelphia/2024/06/20/upenn-report-51-billion-k12-school-spending-hike-will-yield-benefits-exceeding-cost/){target="_blank"}, [*KYW Newsradio*](https://www.audacy.com/kywnewsradio/news/local/penn-analysis-supports-pa-education-funding-boost){target="_blank"}, [*The Philadelphia Tribune*](https://www.phillytrib.com/news/local_news/proposed-5b-funding-formula-would-help-struggling-schools-in-pennsylvania-new-report-says/article_0caa2dfc-eb78-54fb-a791-aae129f17fa7.html){target="_blank"}, [*Spotlight PA*](https://www.spotlightpa.org/news/2024/06/budget-deadline-education-funding-surplus-deal-pennsylvania-taxes/){target="_blank"}
-:::
+**David Loeb**, Katie Pullom, and Brooks Bowden. 2024. Center for Benefit-Cost Studies of Education. <br>
+*Press*: [*The Philadelphia Inqurier*](https://www.inquirer.com/education/pennsylvania-education-funding-benefits-school-penn-research-20240619.html){target="_blank"}, [*Chalkbeat*](https://www.chalkbeat.org/philadelphia/2024/06/20/upenn-report-51-billion-k12-school-spending-hike-will-yield-benefits-exceeding-cost/){target="_blank"}, [*KYW Newsradio*](https://www.audacy.com/kywnewsradio/news/local/penn-analysis-supports-pa-education-funding-boost){target="_blank"}, [*The Philadelphia Tribune*](https://www.phillytrib.com/news/local_news/proposed-5b-funding-formula-would-help-struggling-schools-in-pennsylvania-new-report-says/article_0caa2dfc-eb78-54fb-a791-aae129f17fa7.html){target="_blank"}, [*Spotlight PA*](https://www.spotlightpa.org/news/2024/06/budget-deadline-education-funding-surplus-deal-pennsylvania-taxes/){target="_blank"}
 
 ##### [**The Availability of Truancy Data Across States**](https://www.urban.org/research/publication/availability-truancy-data-across-states){target="_blank"}
 
