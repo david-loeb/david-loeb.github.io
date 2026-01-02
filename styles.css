@@ -9,6 +9,7 @@ h5 {
 }
 
 .nav-link:hover,
+.nav-link.active,
 .navbar-brand:hover {
   color: light-dark(#18bc9c, #00bc8c) !important;
 }
