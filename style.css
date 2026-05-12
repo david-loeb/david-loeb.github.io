@@ -14,7 +14,7 @@ h5 {
   color: light-dark(#18bc9c, #00bc8c) !important;
 }
 
-/* Code for modifying link underlining
+/* Code for modifying link underlining */
 a {
   text-decoration: none;
 }
@@ -26,7 +26,6 @@ a:hover {
 nav a {
   text-decoration: none !important;
 }
-*/
 
 /* Code for animated underline of navbar links on hover 
 .nav-link {
