@@ -14,67 +14,25 @@
     "text": "Invited blog post for Minute Metrix, a startup that has built a database of tens of thousands of searchable school board meeting documents. I used the feature of their database that transforms the school board documents into tabular data and performed a descriptive analysis of school district budget cut discussions. I highly recommend scheduling a demo of their site for anybody who is interested in using school board meeting documents in their research (or for any other purpose)."
   },
   {
-    "objectID": "wkshts/notes.html",
-    "href": "wkshts/notes.html",
-    "title": "Themes",
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
     "section": "",
-    "text": "Green becomes a bit darker\nBlue becomes a bit lighter\nSome of the grays change\nThey use this thing called body-mix(85%) (with various percentages listed)\nThe min-constrast-ratio also changes a bit\nIf i go with blue approach, i need to change the text color for the light version\n\nJust copy the settings to match the dark version\n\nAnd then i’d prob need to also change for dark version if i make it lighter there\n\nAnd can have it ma\n\n\n\n\n\n\nHave a blue/teal navbar and purple links?"
+    "text": "R package that implements the efficient difference-in-differences and event study estimators developed by Chen, Sant’Anna, and Xie (2025) in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by Callaway and Sant’Anna (2021). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.\nVisit the {edid}  GitHub page for a package overview, installation instructions and source code."
   },
   {
-    "objectID": "wkshts/notes.html#flatyl-and-darkly",
-    "href": "wkshts/notes.html#flatyl-and-darkly",
-    "title": "Themes",
+    "objectID": "software.html#edid-efficient-difference-in-differences-estimator",
+    "href": "software.html#edid-efficient-difference-in-differences-estimator",
+    "title": "Software",
     "section": "",
-    "text": "Green becomes a bit darker\nBlue becomes a bit lighter\nSome of the grays change\nThey use this thing called body-mix(85%) (with various percentages listed)\nThe min-constrast-ratio also changes a bit\nIf i go with blue approach, i need to change the text color for the light version\n\nJust copy the settings to match the dark version\n\nAnd then i’d prob need to also change for dark version if i make it lighter there\n\nAnd can have it ma"
+    "text": "R package that implements the efficient difference-in-differences and event study estimators developed by Chen, Sant’Anna, and Xie (2025) in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by Callaway and Sant’Anna (2021). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.\nVisit the {edid}  GitHub page for a package overview, installation instructions and source code."
   },
   {
-    "objectID": "wkshts/notes.html#idea",
-    "href": "wkshts/notes.html#idea",
-    "title": "Themes",
-    "section": "",
-    "text": "Have a blue/teal navbar and purple links?"
-  },
-  {
-    "objectID": "wkshts/to_do.html",
-    "href": "wkshts/to_do.html",
-    "title": "Adding materials",
-    "section": "",
-    "text": "Adding materials\n\nSwap order of “replication code” and “OSF page” for PNAS\nAdd Emily’s AERA pres to my presentation list\nUpdate description? remove AIR part and say i’ll be prof @ USM in fall\nCV: awards part - make the dollar amount in a standard location, like maybe set it up as a table?\nUpdate the design of the site? like make the research and whatever pages look a bit clearer / less busy / sections & subsections & list items etc are more clearly distinguished?\n\nMaybe even try to make it more of like a tailwind style site rather than bootstrap? idk tho prob not rly worth it…???"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "David Loeb",
-    "section": "",
-    "text": "Hello!\nI am an assistant professor in the Research, Evaluation, Statistics and Assessment (RESA) program at The University of Southern Mississippi. I received a Ph.D. in education policy from the University of Pennsylvania Graduate School of Education with a dual A.M. in statistics from the Wharton School in 2026.\nI primarily research K-12 education funding and other policies that affect resources for low-income students and families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "I have taught several research and programming workshops, served as a teaching assistant, and mentored education policy master’s students."
-  },
-  {
-    "objectID": "teaching.html#workshops",
-    "href": "teaching.html#workshops",
-    "title": "Teaching",
-    "section": "Workshops",
-    "text": "Workshops\n\nMissing Data Handling for Policy Research and RCTs\nA two-hour workshop conducted for the University of Michigan Youth Policy Lab in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.\nView the workshop slides here. R code that implements all of the methods discussed and the workshop slides source code are available on  GitHub.\n\n\n R Fundamentals\nAn introduction to R from the ground up conducted for my research team of five master’s students at the University of Pennsylvania in the winter and spring of 2024. We covered the basic building blocks of R; the creation of datasets by merging, cleaning and wrangling publicly avaialable data; reshaping data; simple descriptive analyses; and mapping. The materials are available on  GitHub.\n\n\n Document Classification with Python\nA demonstration of how to perform the natural language processing technique called document classification with Python conducted for my master’s student research team in the spring of 2024. We covered extracting text from PDFs and other documents into tabular text datasets, pre-processing the text, vectorizing, training a classification model with supervised learning, assessing model performance, and generating labels for all documents in the set. The materials are available on  GitHub.\n\n\n Web Scraping with Python\nAn introduction to web scraping in Python conducted for a small group doctoral students in September 2023. View the workshop slides here. A Python script with code for the workflow discussed and the workshop slides source code are available on  GitHub."
-  },
-  {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Teaching",
-    "section": "Courses",
-    "text": "Courses\n\nSociology of Education (EDUC 5782)\nTeaching assistant for this master’s level course at the University of Pennsylvania in the fall of 2024. The instructor Dr. Ericka Weathers and I created the course from scratch. I lectured on school funding policy and inequality and gave a brief primer on the fundamentals of the U.S. education system."
-  },
-  {
-    "objectID": "teaching.html#mentorship",
-    "href": "teaching.html#mentorship",
-    "title": "Teaching",
-    "section": "Mentorship",
-    "text": "Mentorship\nI mentored a team of five education policy master’s students at the University of Pennsylvania during the winter and spring of 2024. I taught them how to work with data in R and demonstrated the general quantitative research process. I continued to mentor two of the students after they graduated, working with them one-on-one to develop their quantitative research skills and supporting one through her PhD application process."
+    "objectID": "software.html#missing-data-scenarios-in-rcts",
+    "href": "software.html#missing-data-scenarios-in-rcts",
+    "title": "Software",
+    "section": " Missing Data Scenarios in RCTs",
+    "text": "Missing Data Scenarios in RCTs\nR Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:\n\nListwise deletion\nMean / dummy variable imputation\nFull information maximum likelihood\nMultiple imputation\n\nThe app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the “true” result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).\nVist the app webpage to try it out. You can also view the source code on  GitHub."
   },
   {
     "objectID": "research.html",
@@ -112,39 +70,39 @@
     "text": "Conference Presentations\n*presenting author\n\nThe Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing\nDavid Loeb* and Katie Pullom. 2025. Paper, Association for Public Policy Analysis and Management.\n\n\nA National RCT of the Impact of Public Montessori Schools on Early Childhood Outcomes\nDavid Loeb*, Angeline S. Lillard, Karen Manship, Emily Daggett, and Juliette Berg. 2025. Paper, Society for Research on Educational Effectiveness.\n\n\nThe Impact of the Montessori Early Childhood Model in PK4 and Kindergarten\nAngeline S. Lillard, Mark Lachowicz, Juliette Berg, Karen Manship, Emily Daggett, and David Loeb*. 2025. Paper, American Education Research Association.\n\n\nTypologizing Truancy Policy: A Cross-State Critical Analysis of Truancy Policies Using Mixed Methods\nEricka S. Weathers, David Loeb, and Rebecca Rock. 2025. Roundtable, American Education Research Association.\n\n\nMedicaid “Free Care” Reversal’s Impact on District Staffing and Finances\nDavid Loeb* and Katie Pullom. 2025. Paper, Association for Education Finance and Policy.\n\n\nSegregation and Willingness to Fund Public Schools at the Local and State Levels\nDavid Loeb*. 2024. Paper, Association for Public Policy Analysis and Management.\n\n\nIdentifying Curriculum and Book Restriction Activity Using School Board Meeting Minutes\nDavid Loeb*. 2024. Poster, Society for Research on Educational Effectiveness.\n\n\nThe Role of Home Values in Linking Segregation and School District Funding Disparities\nDavid Loeb*. 2024. Paper, American Education Research Association.\n\n\nAbsence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\nEricka S. Weathers, Ismael G. Muñoz, and David Loeb*. 2023. Poster, Association for Education Finance and Policy."
   },
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "R package that implements the efficient difference-in-differences and event study estimators developed by Chen, Sant’Anna, and Xie (2025) in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by Callaway and Sant’Anna (2021). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.\nVisit the {edid}  GitHub page for a package overview, installation instructions and source code."
+    "text": "I have taught several research and programming workshops, served as a teaching assistant, and mentored education policy master’s students."
   },
   {
-    "objectID": "software.html#edid-efficient-difference-in-differences-estimator",
-    "href": "software.html#edid-efficient-difference-in-differences-estimator",
-    "title": "Software",
-    "section": "",
-    "text": "R package that implements the efficient difference-in-differences and event study estimators developed by Chen, Sant’Anna, and Xie (2025) in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by Callaway and Sant’Anna (2021). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.\nVisit the {edid}  GitHub page for a package overview, installation instructions and source code."
+    "objectID": "teaching.html#workshops",
+    "href": "teaching.html#workshops",
+    "title": "Teaching",
+    "section": "Workshops",
+    "text": "Workshops\n\nMissing Data Handling for Policy Research and RCTs\nA two-hour workshop conducted for the University of Michigan Youth Policy Lab in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.\nView the workshop slides here. R code that implements all of the methods discussed and the workshop slides source code are available on  GitHub.\n\n\n R Fundamentals\nAn introduction to R from the ground up conducted for my research team of five master’s students at the University of Pennsylvania in the winter and spring of 2024. We covered the basic building blocks of R; the creation of datasets by merging, cleaning and wrangling publicly avaialable data; reshaping data; simple descriptive analyses; and mapping. The materials are available on  GitHub.\n\n\n Document Classification with Python\nA demonstration of how to perform the natural language processing technique called document classification with Python conducted for my master’s student research team in the spring of 2024. We covered extracting text from PDFs and other documents into tabular text datasets, pre-processing the text, vectorizing, training a classification model with supervised learning, assessing model performance, and generating labels for all documents in the set. The materials are available on  GitHub.\n\n\n Web Scraping with Python\nAn introduction to web scraping in Python conducted for a small group doctoral students in September 2023. View the workshop slides here. A Python script with code for the workflow discussed and the workshop slides source code are available on  GitHub."
   },
   {
-    "objectID": "software.html#missing-data-scenarios-in-rcts",
-    "href": "software.html#missing-data-scenarios-in-rcts",
-    "title": "Software",
-    "section": " Missing Data Scenarios in RCTs",
-    "text": "Missing Data Scenarios in RCTs\nR Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:\n\nListwise deletion\nMean / dummy variable imputation\nFull information maximum likelihood\nMultiple imputation\n\nThe app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the “true” result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).\nVist the app webpage to try it out. You can also view the source code on  GitHub."
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\nSociology of Education (EDUC 5782)\nTeaching assistant for this master’s level course at the University of Pennsylvania in the fall of 2024. The instructor Dr. Ericka Weathers and I created the course from scratch. I lectured on school funding policy and inequality and gave a brief primer on the fundamentals of the U.S. education system."
   },
   {
-    "objectID": "wkshts/thoughts.html",
-    "href": "wkshts/thoughts.html",
-    "title": "Examples to work off",
-    "section": "",
-    "text": "Workshops\nApp\nSoftware\nPapers & presentations\nCV\nIdk i guess it wont be a ton of stuff\nBlog posts\nSo like: academic papers & presentations\nthen: Software\nthen: web apps (or maybe combine those two)\nSo ya prob software & web apps on one page together\n\nthen maybe like once i have the RCT code up, i can do like “code” and separate that out from the webapp?\nmm no no bc a package is diff from replication code\n\nWell maybe i can do like replication packages for specific research projects as its own tab, and then keep software and web apps separate\nTho ultimately i do think it makes most sense to have all my apps living like on my actual website and not externally, bc its like, thats where ppl are gonna go to try to find the app ya know\n\nbut then again, if it just opens the app in a new tab, not a big deal bc they know they can also just go to my page to find it\n\nBUT no - bc i think i wanna link directly to the app from clikcing on the tab?\n\nmm no actually bc its not like i’m gonna host the app on my own server so i think i’ll have to link to it externally\nunless theres some way with posit connect or something that i can like embed it within my own site, but since it’s a static site i dont think so\n\nInstead of workshops, do i do “teaching” and list the SOC TA w/ lecture on school funding listed?\n\nAnd then have a section on “workshops” within their?\nwould help with the bowdoin app, so yeah i prob should"
+    "objectID": "teaching.html#mentorship",
+    "href": "teaching.html#mentorship",
+    "title": "Teaching",
+    "section": "Mentorship",
+    "text": "Mentorship\nI mentored a team of five education policy master’s students at the University of Pennsylvania during the winter and spring of 2024. I taught them how to work with data in R and demonstrated the general quantitative research process. I continued to mentor two of the students after they graduated, working with them one-on-one to develop their quantitative research skills and supporting one through her PhD application process."
   },
   {
-    "objectID": "wkshts/thoughts.html#my-thoughts",
-    "href": "wkshts/thoughts.html#my-thoughts",
-    "title": "Examples to work off",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Loeb",
     "section": "",
-    "text": "Workshops\nApp\nSoftware\nPapers & presentations\nCV\nIdk i guess it wont be a ton of stuff\nBlog posts\nSo like: academic papers & presentations\nthen: Software\nthen: web apps (or maybe combine those two)\nSo ya prob software & web apps on one page together\n\nthen maybe like once i have the RCT code up, i can do like “code” and separate that out from the webapp?\nmm no no bc a package is diff from replication code\n\nWell maybe i can do like replication packages for specific research projects as its own tab, and then keep software and web apps separate\nTho ultimately i do think it makes most sense to have all my apps living like on my actual website and not externally, bc its like, thats where ppl are gonna go to try to find the app ya know\n\nbut then again, if it just opens the app in a new tab, not a big deal bc they know they can also just go to my page to find it\n\nBUT no - bc i think i wanna link directly to the app from clikcing on the tab?\n\nmm no actually bc its not like i’m gonna host the app on my own server so i think i’ll have to link to it externally\nunless theres some way with posit connect or something that i can like embed it within my own site, but since it’s a static site i dont think so\n\nInstead of workshops, do i do “teaching” and list the SOC TA w/ lecture on school funding listed?\n\nAnd then have a section on “workshops” within their?\nwould help with the bowdoin app, so yeah i prob should"
+    "text": "Hello!\nI am an assistant professor in the Research, Evaluation, Statistics and Assessment (RESA) program at The University of Southern Mississippi. I received a Ph.D. in education policy from the University of Pennsylvania Graduate School of Education with a dual A.M. in statistics from the Wharton School in 2026.\nI primarily research K-12 education funding and other policies that affect resources for low-income students and families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design."
   },
   {
     "objectID": "cv.html",

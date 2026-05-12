@@ -2,38 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://davidloeb.co/blog.html</loc>
-    <lastmod>2026-05-12T19:06:45.965Z</lastmod>
-  </url>
-  <url>
-    <loc>https://davidloeb.co/wkshts/notes.html</loc>
-    <lastmod>2025-08-08T21:02:19.128Z</lastmod>
-  </url>
-  <url>
-    <loc>https://davidloeb.co/wkshts/to_do.html</loc>
-    <lastmod>2026-05-12T18:22:02.453Z</lastmod>
-  </url>
-  <url>
-    <loc>https://davidloeb.co/index.html</loc>
-    <lastmod>2026-05-12T19:06:45.965Z</lastmod>
-  </url>
-  <url>
-    <loc>https://davidloeb.co/teaching.html</loc>
-    <lastmod>2026-05-12T19:06:45.966Z</lastmod>
-  </url>
-  <url>
-    <loc>https://davidloeb.co/research.html</loc>
-    <lastmod>2026-05-12T19:06:45.965Z</lastmod>
+    <lastmod>2026-05-12T19:17:00.712Z</lastmod>
   </url>
   <url>
     <loc>https://davidloeb.co/software.html</loc>
-    <lastmod>2026-05-12T19:06:45.966Z</lastmod>
+    <lastmod>2026-05-12T19:17:00.713Z</lastmod>
   </url>
   <url>
-    <loc>https://davidloeb.co/wkshts/thoughts.html</loc>
-    <lastmod>2025-08-08T21:52:42.273Z</lastmod>
+    <loc>https://davidloeb.co/research.html</loc>
+    <lastmod>2026-05-12T19:17:00.712Z</lastmod>
+  </url>
+  <url>
+    <loc>https://davidloeb.co/teaching.html</loc>
+    <lastmod>2026-05-12T19:17:00.713Z</lastmod>
+  </url>
+  <url>
+    <loc>https://davidloeb.co/index.html</loc>
+    <lastmod>2026-05-12T19:17:00.712Z</lastmod>
   </url>
   <url>
     <loc>https://davidloeb.co/cv.html</loc>
-    <lastmod>2026-05-12T19:06:45.965Z</lastmod>
+    <lastmod>2026-05-12T19:17:00.712Z</lastmod>
   </url>
 </urlset>
