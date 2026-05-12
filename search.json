@@ -14,60 +14,39 @@
     "text": "Invited blog post for Minute Metrix, a startup that has built a database of tens of thousands of searchable school board meeting documents. I used the feature of their database that transforms the school board documents into tabular data and performed a descriptive analysis of school district budget cut discussions. I highly recommend scheduling a demo of their site for anybody who is interested in using school board meeting documents in their research (or for any other purpose)."
   },
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
+    "objectID": "wkshts/notes.html",
+    "href": "wkshts/notes.html",
+    "title": "Themes",
     "section": "",
-    "text": "R package that implements the efficient difference-in-differences and event study estimators developed by Chen, Sant’Anna, and Xie (2025) in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by Callaway and Sant’Anna (2021). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.\nVisit the {edid}  GitHub page for a package overview, installation instructions and source code."
+    "text": "Green becomes a bit darker\nBlue becomes a bit lighter\nSome of the grays change\nThey use this thing called body-mix(85%) (with various percentages listed)\nThe min-constrast-ratio also changes a bit\nIf i go with blue approach, i need to change the text color for the light version\n\nJust copy the settings to match the dark version\n\nAnd then i’d prob need to also change for dark version if i make it lighter there\n\nAnd can have it ma\n\n\n\n\n\n\nHave a blue/teal navbar and purple links?"
   },
   {
-    "objectID": "software.html#edid-efficient-difference-in-differences-estimator",
-    "href": "software.html#edid-efficient-difference-in-differences-estimator",
-    "title": "Software",
+    "objectID": "wkshts/notes.html#flatyl-and-darkly",
+    "href": "wkshts/notes.html#flatyl-and-darkly",
+    "title": "Themes",
     "section": "",
-    "text": "R package that implements the efficient difference-in-differences and event study estimators developed by Chen, Sant’Anna, and Xie (2025) in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by Callaway and Sant’Anna (2021). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.\nVisit the {edid}  GitHub page for a package overview, installation instructions and source code."
+    "text": "Green becomes a bit darker\nBlue becomes a bit lighter\nSome of the grays change\nThey use this thing called body-mix(85%) (with various percentages listed)\nThe min-constrast-ratio also changes a bit\nIf i go with blue approach, i need to change the text color for the light version\n\nJust copy the settings to match the dark version\n\nAnd then i’d prob need to also change for dark version if i make it lighter there\n\nAnd can have it ma"
   },
   {
-    "objectID": "software.html#missing-data-scenarios-in-rcts",
-    "href": "software.html#missing-data-scenarios-in-rcts",
-    "title": "Software",
-    "section": " Missing Data Scenarios in RCTs",
-    "text": "Missing Data Scenarios in RCTs\nR Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:\n\nListwise deletion\nMean / dummy variable imputation\nFull information maximum likelihood\nMultiple imputation\n\nThe app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the “true” result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).\nVist the app webpage to try it out. You can also view the source code on  GitHub."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "wkshts/notes.html#idea",
+    "href": "wkshts/notes.html#idea",
+    "title": "Themes",
     "section": "",
-    "text": "My research covers a range of topics in education, public policy, and quantitative methods, with a particular focus on K-12 education funding."
+    "text": "Have a blue/teal navbar and purple links?"
   },
   {
-    "objectID": "research.html#peer-reviewed-journal-articles",
-    "href": "research.html#peer-reviewed-journal-articles",
-    "title": "Research",
-    "section": "Peer-Reviewed Journal Articles",
-    "text": "Peer-Reviewed Journal Articles\n\nA National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten\nAngeline S. Lillard, David Loeb, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett. 2025. Proceedings of the National Academy of Sciences (PNAS).  Open Science Framework Page | Replication Code\n\n\nAbsence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\nEricka S. Weathers, Ismael G. Muñoz, and David Loeb. 2023. The High School Journal."
+    "objectID": "wkshts/to_do.html",
+    "href": "wkshts/to_do.html",
+    "title": "Adding materials",
+    "section": "",
+    "text": "Adding materials\n\nSwap order of “replication code” and “OSF page” for PNAS\nAdd Emily’s AERA pres to my presentation list\nUpdate description? remove AIR part and say i’ll be prof @ USM in fall\nCV: awards part - make the dollar amount in a standard location, like maybe set it up as a table?\nUpdate the design of the site? like make the research and whatever pages look a bit clearer / less busy / sections & subsections & list items etc are more clearly distinguished?\n\nMaybe even try to make it more of like a tailwind style site rather than bootstrap? idk tho prob not rly worth it…???"
   },
   {
-    "objectID": "research.html#policy-reports-briefs",
-    "href": "research.html#policy-reports-briefs",
-    "title": "Research",
-    "section": "Policy Reports & Briefs",
-    "text": "Policy Reports & Briefs\n\nMassachusetts Child Care Cost Models: Report on 2024 Cost Research and Cost Model Updates\nAmanda Danks, Maya Escueta, Isaac Kaplan, Austin Gragson, David Loeb, and Ashley Darang. 2025. American Institutes for Research.\n\n\nThe Benefits of Adequacy: Estimating the Economic Impacts of Pennsylvania’s Basic Education Funding Commission Proposal\nDavid Loeb, Katie Pullom, and Brooks Bowden. 2024. Center for Benefit-Cost Studies of Education.  Press: The Philadelphia Inqurier, Chalkbeat, KYW Newsradio, The Philadelphia Tribune, Spotlight PA\n\n\nThe Availability of Truancy Data Across States\nEricka S. Weathers and David Loeb. 2022. The Learning Curve, Urban Institute."
-  },
-  {
-    "objectID": "research.html#papers-in-progress",
-    "href": "research.html#papers-in-progress",
-    "title": "Research",
-    "section": "Papers in Progress",
-    "text": "Papers in Progress\n\nThe Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing\n\n\nDo School Finance Reforms Reduce Non-Education State Spending?\nwith Chris Wodicka\n\n\nMissing Data Handling in Education RCTs: A Practitioner’s Guide\nwith Catherine Asher and Robin Jacob\n\n\nSchool District Demographic Change and the Willingness to Fund Local Public Schools"
-  },
-  {
-    "objectID": "research.html#conference-presentations",
-    "href": "research.html#conference-presentations",
-    "title": "Research",
-    "section": "Conference Presentations",
-    "text": "Conference Presentations\n*presenting author\n\nThe Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing\nDavid Loeb* and Katie Pullom. 2025. Paper, Association for Public Policy Analysis and Management.\n\n\nA National RCT of the Impact of Public Montessori Schools on Early Childhood Outcomes\nDavid Loeb*, Angeline S. Lillard, Karen Manship, Emily Daggett, and Juliette Berg. 2025. Paper, Society for Research on Educational Effectiveness.\n\n\nThe Impact of the Montessori Early Childhood Model in PK4 and Kindergarten\nAngeline S. Lillard, Mark Lachowicz, Juliette Berg, Karen Manship, Emily Daggett, and David Loeb*. 2025. Paper, American Education Research Association.\n\n\nTypologizing Truancy Policy: A Cross-State Critical Analysis of Truancy Policies Using Mixed Methods\nEricka S. Weathers, David Loeb, and Rebecca Rock. 2025. Roundtable, American Education Research Association.\n\n\nMedicaid “Free Care” Reversal’s Impact on District Staffing and Finances\nDavid Loeb* and Katie Pullom. 2025. Paper, Association for Education Finance and Policy.\n\n\nSegregation and Willingness to Fund Public Schools at the Local and State Levels\nDavid Loeb*. 2024. Paper, Association for Public Policy Analysis and Management.\n\n\nIdentifying Curriculum and Book Restriction Activity Using School Board Meeting Minutes\nDavid Loeb*. 2024. Poster, Society for Research on Educational Effectiveness.\n\n\nThe Role of Home Values in Linking Segregation and School District Funding Disparities\nDavid Loeb*. 2024. Paper, American Education Research Association.\n\n\nAbsence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\nEricka S. Weathers, Ismael G. Muñoz, and David Loeb*. 2023. Poster, Association for Education Finance and Policy."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Loeb",
+    "section": "",
+    "text": "Hello!\nI am an assistant professor in the Research, Evaluation, Statistics and Assessment (RESA) program at The University of Southern Mississippi. I received a Ph.D. in education policy from the University of Pennsylvania Graduate School of Education with a dual A.M. in statistics from the Wharton School in 2026.\nI primarily research K-12 education funding and other policies that affect resources for low-income students and families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design."
   },
   {
     "objectID": "teaching.html",
@@ -98,11 +77,74 @@
     "text": "Mentorship\nI mentored a team of five education policy master’s students at the University of Pennsylvania during the winter and spring of 2024. I taught them how to work with data in R and demonstrated the general quantitative research process. I continued to mentor two of the students after they graduated, working with them one-on-one to develop their quantitative research skills and supporting one through her PhD application process."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "David Loeb",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Hello!\nI am a Ph.D. candidate in Education Policy at the University of Pennsylvania Graduate School of Education and will obtain a dual A.M. in Statistics and Data Science from the Wharton School. I am also an Institute of Education Sciences Predoctoral Fellow. I recently completed a yearlong fellowship with the American Institutes for Research (AIR) where I conducted the statistical analyses for a national randomized controlled trial of public Montessori preschool and supported the development of a state child care cost model.\nI primarily research K-12 education funding and other policies that affect resources for low-income students and families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design."
+    "text": "My research covers a range of topics in education, public policy, and quantitative methods, with a particular focus on K-12 education funding."
+  },
+  {
+    "objectID": "research.html#peer-reviewed-journal-articles",
+    "href": "research.html#peer-reviewed-journal-articles",
+    "title": "Research",
+    "section": "Peer-Reviewed Journal Articles",
+    "text": "Peer-Reviewed Journal Articles\n\nA National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten\nAngeline S. Lillard, David Loeb, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett. 2025. Proceedings of the National Academy of Sciences (PNAS).  Replication Code | Open Science Framework Page\n\n\nAbsence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\nEricka S. Weathers, Ismael G. Muñoz, and David Loeb. 2023. The High School Journal."
+  },
+  {
+    "objectID": "research.html#policy-reports-briefs",
+    "href": "research.html#policy-reports-briefs",
+    "title": "Research",
+    "section": "Policy Reports & Briefs",
+    "text": "Policy Reports & Briefs\n\nMassachusetts Child Care Cost Models: Report on 2024 Cost Research and Cost Model Updates\nAmanda Danks, Maya Escueta, Isaac Kaplan, Austin Gragson, David Loeb, and Ashley Darang. 2025. American Institutes for Research.\n\n\nThe Benefits of Adequacy: Estimating the Economic Impacts of Pennsylvania’s Basic Education Funding Commission Proposal\nDavid Loeb, Katie Pullom, and Brooks Bowden. 2024. Center for Benefit-Cost Studies of Education.  Press: The Philadelphia Inqurier, Chalkbeat, KYW Newsradio, The Philadelphia Tribune, Spotlight PA\n\n\nThe Availability of Truancy Data Across States\nEricka S. Weathers and David Loeb. 2022. The Learning Curve, Urban Institute."
+  },
+  {
+    "objectID": "research.html#papers-in-progress",
+    "href": "research.html#papers-in-progress",
+    "title": "Research",
+    "section": "Papers in Progress",
+    "text": "Papers in Progress\n\nThe Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing\n\n\nDo School Finance Reforms Reduce Non-Education State Spending?\nwith Chris Wodicka\n\n\nA Practical Guide to Missing Data Handling in Education RCTs\nwith Catherine Asher and Robin Jacob\n\n\nSchool District Demographic Change and the Willingness to Fund Local Public Schools"
+  },
+  {
+    "objectID": "research.html#conference-presentations",
+    "href": "research.html#conference-presentations",
+    "title": "Research",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\n*presenting author\n\nThe Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing\nDavid Loeb* and Katie Pullom. 2025. Paper, Association for Public Policy Analysis and Management.\n\n\nA National RCT of the Impact of Public Montessori Schools on Early Childhood Outcomes\nDavid Loeb*, Angeline S. Lillard, Karen Manship, Emily Daggett, and Juliette Berg. 2025. Paper, Society for Research on Educational Effectiveness.\n\n\nThe Impact of the Montessori Early Childhood Model in PK4 and Kindergarten\nAngeline S. Lillard, Mark Lachowicz, Juliette Berg, Karen Manship, Emily Daggett, and David Loeb*. 2025. Paper, American Education Research Association.\n\n\nTypologizing Truancy Policy: A Cross-State Critical Analysis of Truancy Policies Using Mixed Methods\nEricka S. Weathers, David Loeb, and Rebecca Rock. 2025. Roundtable, American Education Research Association.\n\n\nMedicaid “Free Care” Reversal’s Impact on District Staffing and Finances\nDavid Loeb* and Katie Pullom. 2025. Paper, Association for Education Finance and Policy.\n\n\nSegregation and Willingness to Fund Public Schools at the Local and State Levels\nDavid Loeb*. 2024. Paper, Association for Public Policy Analysis and Management.\n\n\nIdentifying Curriculum and Book Restriction Activity Using School Board Meeting Minutes\nDavid Loeb*. 2024. Poster, Society for Research on Educational Effectiveness.\n\n\nThe Role of Home Values in Linking Segregation and School District Funding Disparities\nDavid Loeb*. 2024. Paper, American Education Research Association.\n\n\nAbsence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\nEricka S. Weathers, Ismael G. Muñoz, and David Loeb*. 2023. Poster, Association for Education Finance and Policy."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "R package that implements the efficient difference-in-differences and event study estimators developed by Chen, Sant’Anna, and Xie (2025) in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by Callaway and Sant’Anna (2021). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.\nVisit the {edid}  GitHub page for a package overview, installation instructions and source code."
+  },
+  {
+    "objectID": "software.html#edid-efficient-difference-in-differences-estimator",
+    "href": "software.html#edid-efficient-difference-in-differences-estimator",
+    "title": "Software",
+    "section": "",
+    "text": "R package that implements the efficient difference-in-differences and event study estimators developed by Chen, Sant’Anna, and Xie (2025) in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by Callaway and Sant’Anna (2021). It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.\nVisit the {edid}  GitHub page for a package overview, installation instructions and source code."
+  },
+  {
+    "objectID": "software.html#missing-data-scenarios-in-rcts",
+    "href": "software.html#missing-data-scenarios-in-rcts",
+    "title": "Software",
+    "section": " Missing Data Scenarios in RCTs",
+    "text": "Missing Data Scenarios in RCTs\nR Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:\n\nListwise deletion\nMean / dummy variable imputation\nFull information maximum likelihood\nMultiple imputation\n\nThe app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the “true” result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).\nVist the app webpage to try it out. You can also view the source code on  GitHub."
+  },
+  {
+    "objectID": "wkshts/thoughts.html",
+    "href": "wkshts/thoughts.html",
+    "title": "Examples to work off",
+    "section": "",
+    "text": "Workshops\nApp\nSoftware\nPapers & presentations\nCV\nIdk i guess it wont be a ton of stuff\nBlog posts\nSo like: academic papers & presentations\nthen: Software\nthen: web apps (or maybe combine those two)\nSo ya prob software & web apps on one page together\n\nthen maybe like once i have the RCT code up, i can do like “code” and separate that out from the webapp?\nmm no no bc a package is diff from replication code\n\nWell maybe i can do like replication packages for specific research projects as its own tab, and then keep software and web apps separate\nTho ultimately i do think it makes most sense to have all my apps living like on my actual website and not externally, bc its like, thats where ppl are gonna go to try to find the app ya know\n\nbut then again, if it just opens the app in a new tab, not a big deal bc they know they can also just go to my page to find it\n\nBUT no - bc i think i wanna link directly to the app from clikcing on the tab?\n\nmm no actually bc its not like i’m gonna host the app on my own server so i think i’ll have to link to it externally\nunless theres some way with posit connect or something that i can like embed it within my own site, but since it’s a static site i dont think so\n\nInstead of workshops, do i do “teaching” and list the SOC TA w/ lecture on school funding listed?\n\nAnd then have a section on “workshops” within their?\nwould help with the bowdoin app, so yeah i prob should"
+  },
+  {
+    "objectID": "wkshts/thoughts.html#my-thoughts",
+    "href": "wkshts/thoughts.html#my-thoughts",
+    "title": "Examples to work off",
+    "section": "",
+    "text": "Workshops\nApp\nSoftware\nPapers & presentations\nCV\nIdk i guess it wont be a ton of stuff\nBlog posts\nSo like: academic papers & presentations\nthen: Software\nthen: web apps (or maybe combine those two)\nSo ya prob software & web apps on one page together\n\nthen maybe like once i have the RCT code up, i can do like “code” and separate that out from the webapp?\nmm no no bc a package is diff from replication code\n\nWell maybe i can do like replication packages for specific research projects as its own tab, and then keep software and web apps separate\nTho ultimately i do think it makes most sense to have all my apps living like on my actual website and not externally, bc its like, thats where ppl are gonna go to try to find the app ya know\n\nbut then again, if it just opens the app in a new tab, not a big deal bc they know they can also just go to my page to find it\n\nBUT no - bc i think i wanna link directly to the app from clikcing on the tab?\n\nmm no actually bc its not like i’m gonna host the app on my own server so i think i’ll have to link to it externally\nunless theres some way with posit connect or something that i can like embed it within my own site, but since it’s a static site i dont think so\n\nInstead of workshops, do i do “teaching” and list the SOC TA w/ lecture on school funding listed?\n\nAnd then have a section on “workshops” within their?\nwould help with the bowdoin app, so yeah i prob should"
   },
   {
     "objectID": "cv.html",
