@@ -30,8 +30,5 @@ format:
       #light: [flatly, themes/flatly-blue.scss]
       dark: darkly
       #dark: [darkly, themes/darkly-purple.scss]
-    css: styles.css
+    css: style.css
     respect-user-color-scheme: true
-
-
-

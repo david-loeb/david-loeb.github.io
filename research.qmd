@@ -9,7 +9,7 @@ My research covers a range of topics in education, public policy, and quantitati
 ##### [**A National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten**](https://www.pnas.org/doi/10.1073/pnas.2506130122){target="_blank"}
 
 Angeline S. Lillard, **David Loeb**, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett. 2025. *Proceedings of the National Academy of Sciences (PNAS).* <br>
-[Open Science Framework Page](https://osf.io/vuc42/) | [Replication Code](https://github.com/david-loeb/montessori-rct)
+[Replication Code](https://github.com/david-loeb/montessori-rct){target="_blank"} | [Open Science Framework Page](https://osf.io/vuc42/){target="_blank"}
 
 ##### [**Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania**](https://doi.org/10.1353/hsj.2023.a930442){target="_blank"}
 
@@ -38,7 +38,7 @@ Ericka S. Weathers and **David Loeb**. 2022. *The Learning Curve*, Urban Institu
 
 with Chris Wodicka
 
-##### **Missing Data Handling in Education RCTs: A Practitioner's Guide**
+##### **A Practical Guide to Missing Data Handling in Education RCTs**
 
 with Catherine Asher and Robin Jacob
 

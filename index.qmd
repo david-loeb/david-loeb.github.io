@@ -1,6 +1,6 @@
 ---
 title: "David Loeb"
-subtitle: "Ph.D. Candidate, Education Policy<br>University of Pennsylvania"
+subtitle: "Assistant Professor of Education<br>The University of Southern Mississippi"
 image: files/headshot.jpg
 page-layout: full
 about: 
@@ -21,6 +21,6 @@ about:
 
 # Hello!
 
-I am a Ph.D. candidate in Education Policy at the [University of Pennsylvania Graduate School of Education](https://www.gse.upenn.edu){target="_blank"} and will obtain a dual A.M. in Statistics and Data Science from the [Wharton School](https://www.wharton.upenn.edu){target="_blank"}. I am also an [Institute of Education Sciences Predoctoral Fellow](https://www.gse.upenn.edu/student-life/enhancing-your-journey/research-opportunities/institute-education-sciences-predoctoral-training-program){target="_blank"}. I recently completed a yearlong fellowship with the [American Institutes for Research (AIR)](https://www.air.org){target="_blank"} where I conducted the statistical analyses for a national randomized controlled trial of public Montessori preschool and supported the development of a state child care cost model.
+I am an assistant professor in the [Research, Evaluation, Statistics and Assessment (RESA)](https://www.usm.edu/graduate-programs/educational-research.php){target="_blank"} program at [The University of Southern Mississippi](https://www.usm.edu){target="_blank"}. I received a Ph.D. in education policy from the [University of Pennsylvania Graduate School of Education](https://www.gse.upenn.edu){target="_blank"} with a dual A.M. in statistics from the [Wharton School](https://www.wharton.upenn.edu){target="_blank"} in 2026.
 
 I primarily research K-12 education funding and other policies that affect resources for low-income students and families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design.
