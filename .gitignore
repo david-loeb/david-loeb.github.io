@@ -1,5 +1,5 @@
 /themes/_*
 .DS_Store
 /.quarto/
-/wkshts/
+/_wkshts/
 /_site/
