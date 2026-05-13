@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./files/favicon-teal.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -42,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b1a9dad27405968d87b5a859284fb0bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-1bcb84067da0f479ac39ca30d285420c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-b1a9dad27405968d87b5a859284fb0bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-87adcb20eb0796dc8d2bf2b639348c2d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-40396ddc4449bd7460ee341c5be625e9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-87adcb20eb0796dc8d2bf2b639348c2d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -73,7 +75,121 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-url','listing-authors','listing-year','listing-publication','listing-links',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-url","listing-authors","listing-year","listing-publication","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-reports .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-url','listing-authors','listing-year','listing-institution','listing-press','listing-publication',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-url","listing-authors","listing-year","listing-institution","listing-press","listing-publication"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-reports'] = new List('listing-reports', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-in-progress .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-authors',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-authors"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-in-progress'] = new List('listing-in-progress', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -322,94 +438,282 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>My research covers a range of topics in education, public policy, and quantitative methods, with a particular focus on K-12 education funding.</p>
-<section id="peer-reviewed-journal-articles" class="level2">
-<h2 class="anchored" data-anchor-id="peer-reviewed-journal-articles">Peer-Reviewed Journal Articles</h2>
-<section id="a-national-randomized-controlled-trial-of-the-impact-of-public-montessori-preschool-at-the-end-of-kindergarten" class="level5">
-<h5 class="anchored" data-anchor-id="a-national-randomized-controlled-trial-of-the-impact-of-public-montessori-preschool-at-the-end-of-kindergarten"><a href="https://www.pnas.org/doi/10.1073/pnas.2506130122" target="_blank"><strong>A National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten</strong></a></h5>
-<p>Angeline S. Lillard, <strong>David Loeb</strong>, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett. 2025. <em>Proceedings of the National Academy of Sciences (PNAS).</em> <br> <a href="https://github.com/david-loeb/montessori-rct" target="_blank">Replication Code</a> | <a href="https://osf.io/vuc42/" target="_blank">Open Science Framework Page</a></p>
-</section>
-<section id="absence-unexcused-using-administrative-data-to-explore-patterns-and-predictors-of-habitual-truancy-in-pennsylvania" class="level5">
-<h5 class="anchored" data-anchor-id="absence-unexcused-using-administrative-data-to-explore-patterns-and-predictors-of-habitual-truancy-in-pennsylvania"><a href="https://doi.org/10.1353/hsj.2023.a930442" target="_blank"><strong>Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania</strong></a></h5>
-<p>Ericka S. Weathers, Ismael G. Muñoz, and <strong>David Loeb</strong>. 2023. <em>The High School Journal</em>.</p>
-</section>
+<section id="journal-articles" class="level2">
+<h2 class="anchored" data-anchor-id="journal-articles">Journal Articles</h2>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
+
+  <div class="list">
+    <div class="research-card">
+
+      <div class="research-title research-content">
+        
+          <a href="https://www.pnas.org/doi/10.1073/pnas.2506130122" target="_blank">A National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten</a>
+        
+      </div>
+
+      
+        <p class="research-authors research-content">Angeline S. Lillard, <strong>David Loeb</strong>, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett</p>
+      
+
+      
+        <p class="research-pub research-content">2025, <i>Proceedings of the National Academy of Sciences (PNAS)</i></p>
+      
+
+      
+
+      
+        <div class="research-links">
+          
+            <a class="research-link" href="https://github.com/david-loeb/montessori-rct" target="_blank">
+              <i class="bi bi-github"></i> Code
+            </a>
+          
+            <a class="research-link" href="https://osf.io/cp8xg/overview" target="_blank">
+              <i class="bi bi-table"></i> Data
+            </a>
+          
+        </div>
+      
+
+    </div>
+  </div>
+
+  <div class="list">
+    <div class="research-card">
+
+      <div class="research-title research-content">
+        
+          <a href="https://doi.org/10.1353/hsj.2023.a930442" target="_blank">Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania</a>
+        
+      </div>
+
+      
+        <p class="research-authors research-content">Ericka S. Weathers, Ismael G. Muñoz, and <strong>David Loeb</strong></p>
+      
+
+      
+        <p class="research-pub research-content">2023, <i>The High School Journal</i></p>
+      
+
+      
+
+      
+        <div class="research-links research-links-empty">&nbsp;</div>
+      
+
+    </div>
+  </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="policy-reports-briefs" class="level2">
 <h2 class="anchored" data-anchor-id="policy-reports-briefs">Policy Reports &amp; Briefs</h2>
-<section id="massachusetts-child-care-cost-models-report-on-2024-cost-research-and-cost-model-updates" class="level5">
-<h5 class="anchored" data-anchor-id="massachusetts-child-care-cost-models-report-on-2024-cost-research-and-cost-model-updates"><a href="https://eric.ed.gov/?id=ED674321" target="_blank"><strong>Massachusetts Child Care Cost Models: Report on 2024 Cost Research and Cost Model Updates</strong></a></h5>
-<p>Amanda Danks, Maya Escueta, Isaac Kaplan, Austin Gragson, <strong>David Loeb</strong>, and Ashley Darang. 2025. American Institutes for Research.</p>
-</section>
-<section id="the-benefits-of-adequacy-estimating-the-economic-impacts-of-pennsylvanias-basic-education-funding-commission-proposal" class="level5">
-<h5 class="anchored" data-anchor-id="the-benefits-of-adequacy-estimating-the-economic-impacts-of-pennsylvanias-basic-education-funding-commission-proposal"><a href="https://www.cbcse.org/publications/pa2024" target="_blank"><strong>The Benefits of Adequacy: Estimating the Economic Impacts of Pennsylvania’s Basic Education Funding Commission Proposal</strong></a></h5>
-<p><strong>David Loeb</strong>, Katie Pullom, and Brooks Bowden. 2024. Center for Benefit-Cost Studies of Education. <br> <em>Press</em>: <a href="https://www.inquirer.com/education/pennsylvania-education-funding-benefits-school-penn-research-20240619.html" target="_blank"><em>The Philadelphia Inqurier</em></a>, <a href="https://www.chalkbeat.org/philadelphia/2024/06/20/upenn-report-51-billion-k12-school-spending-hike-will-yield-benefits-exceeding-cost/" target="_blank"><em>Chalkbeat</em></a>, <a href="https://www.audacy.com/kywnewsradio/news/local/penn-analysis-supports-pa-education-funding-boost" target="_blank"><em>KYW Newsradio</em></a>, <a href="https://www.phillytrib.com/news/local_news/proposed-5b-funding-formula-would-help-struggling-schools-in-pennsylvania-new-report-says/article_0caa2dfc-eb78-54fb-a791-aae129f17fa7.html" target="_blank"><em>The Philadelphia Tribune</em></a>, <a href="https://www.spotlightpa.org/news/2024/06/budget-deadline-education-funding-surplus-deal-pennsylvania-taxes/" target="_blank"><em>Spotlight PA</em></a></p>
-</section>
-<section id="the-availability-of-truancy-data-across-states" class="level5">
-<h5 class="anchored" data-anchor-id="the-availability-of-truancy-data-across-states"><a href="https://www.urban.org/research/publication/availability-truancy-data-across-states" target="_blank"><strong>The Availability of Truancy Data Across States</strong></a></h5>
-<p>Ericka S. Weathers and <strong>David Loeb</strong>. 2022. <em>The Learning Curve</em>, Urban Institute.</p>
-</section>
+<div id="listing-reports" class="quarto-listing quarto-listing-container-custom">
+
+  <div class="list">
+    <div class="research-card">
+
+      <div class="research-title research-content">
+        
+          <a href="https://eric.ed.gov/?id=ED674321" target="_blank">Massachusetts Child Care Cost Models: Report on 2024 Cost Research and Cost Model Updates</a>
+        
+      </div>
+
+      
+        <p class="research-authors research-content">Amanda Danks, Maya Escueta, Isaac Kaplan, Austin Gragson, <strong>David Loeb</strong>, and Ashley Darang</p>
+      
+
+      
+        <p class="research-pub research-content">2025, American Institutes for Research</p>
+      
+
+      
+
+      
+        <div class="research-links research-links-empty">&nbsp;</div>
+      
+
+    </div>
+  </div>
+
+  <div class="list">
+    <div class="research-card">
+
+      <div class="research-title research-content">
+        
+          <a href="https://www.cbcse.org/publications/pa2024" target="_blank">The Benefits of Adequacy: Estimating the Economic Impacts of Pennsylvania's Basic Education Funding Commission Proposal</a>
+        
+      </div>
+
+      
+        <p class="research-authors research-content"><strong>David Loeb</strong>, Katie Pullom, and Brooks Bowden</p>
+      
+
+      
+        <p class="research-pub research-content">2024, Center for Benefit-Cost Studies of Education</p>
+      
+
+      
+        <p class="research-press research-content"><i>
+          Press: 
+              <a href="https://www.inquirer.com/education/pennsylvania-education-funding-benefits-school-penn-research-20240619.html" target="_blank">The Philadelphia Inquirer</a>, 
+            
+          
+              <a href="https://www.chalkbeat.org/philadelphia/2024/06/20/upenn-report-51-billion-k12-school-spending-hike-will-yield-benefits-exceeding-cost/" target="_blank">Chalkbeat</a>, 
+            
+          
+              <a href="https://www.audacy.com/kywnewsradio/news/local/penn-analysis-supports-pa-education-funding-boost" target="_blank">KYW Newsradio</a>, 
+            
+          
+              <a href="https://www.phillytrib.com/news/local_news/proposed-5b-funding-formula-would-help-struggling-schools-in-pennsylvania-new-report-says/article_0caa2dfc-eb78-54fb-a791-aae129f17fa7.html" target="_blank">The Philadelphia Tribune</a>, 
+            
+          
+              <a href="https://www.spotlightpa.org/news/2024/06/budget-deadline-education-funding-surplus-deal-pennsylvania-taxes/" target="_blank">Spotlight PA</a>
+            
+          
+        </i></p>
+      
+
+      
+        <div class="research-links research-links-empty">&nbsp;</div>
+      
+
+    </div>
+  </div>
+
+  <div class="list">
+    <div class="research-card">
+
+      <div class="research-title research-content">
+        
+          <a href="https://www.urban.org/research/publication/availability-truancy-data-across-states" target="_blank">The Availability of Truancy Data Across States</a>
+        
+      </div>
+
+      
+        <p class="research-authors research-content">Ericka S. Weathers and <strong>David Loeb</strong></p>
+      
+
+      
+        <p class="research-pub research-content">
+            2022, <i>The Learning Curve</i>, Urban Institute
+        </p>
+      
+
+      
+
+      
+        <div class="research-links research-links-empty">&nbsp;</div>
+      
+
+    </div>
+  </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="papers-in-progress" class="level2">
 <h2 class="anchored" data-anchor-id="papers-in-progress">Papers in Progress</h2>
-<section id="the-impact-of-the-medicaid-free-care-reversal-on-school-district-finances-and-staffing" class="level5">
-<h5 class="anchored" data-anchor-id="the-impact-of-the-medicaid-free-care-reversal-on-school-district-finances-and-staffing"><strong>The Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing</strong></h5>
-</section>
-<section id="do-school-finance-reforms-reduce-non-education-state-spending" class="level5">
-<h5 class="anchored" data-anchor-id="do-school-finance-reforms-reduce-non-education-state-spending"><strong>Do School Finance Reforms Reduce Non-Education State Spending?</strong></h5>
-<p>with Chris Wodicka</p>
-</section>
-<section id="a-practical-guide-to-missing-data-handling-in-education-rcts" class="level5">
-<h5 class="anchored" data-anchor-id="a-practical-guide-to-missing-data-handling-in-education-rcts"><strong>A Practical Guide to Missing Data Handling in Education RCTs</strong></h5>
-<p>with Catherine Asher and Robin Jacob</p>
-</section>
-<section id="school-district-demographic-change-and-the-willingness-to-fund-local-public-schools" class="level5">
-<h5 class="anchored" data-anchor-id="school-district-demographic-change-and-the-willingness-to-fund-local-public-schools"><strong>School District Demographic Change and the Willingness to Fund Local Public Schools</strong></h5>
-</section>
-</section>
-<section id="conference-presentations" class="level2">
-<h2 class="anchored" data-anchor-id="conference-presentations">Conference Presentations</h2>
-<p>*<em>presenting author</em></p>
-<section id="public-montessori-preschools-impact-on-achievement-gaps-in-kindergarten" class="level5">
-<h5 class="anchored" data-anchor-id="public-montessori-preschools-impact-on-achievement-gaps-in-kindergarten"><strong>Public Montessori Preschool’s Impact on Achievement Gaps in Kindergarten</strong></h5>
-<p>Emily Daggett, Angeline Lillard, <strong>David Loeb</strong>, and Xin Cynthia Tong. 2026. Paper, American Education Research Association.</p>
-</section>
-<section id="the-impact-of-the-medicaid-free-care-reversal-on-school-district-finances-and-staffing-1" class="level5">
-<h5 class="anchored" data-anchor-id="the-impact-of-the-medicaid-free-care-reversal-on-school-district-finances-and-staffing-1"><strong>The Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing</strong></h5>
-<p><strong>David Loeb</strong>* and Katie Pullom. 2025. Paper, Association for Public Policy Analysis and Management.</p>
-</section>
-<section id="a-national-rct-of-the-impact-of-public-montessori-schools-on-early-childhood-outcomes" class="level5">
-<h5 class="anchored" data-anchor-id="a-national-rct-of-the-impact-of-public-montessori-schools-on-early-childhood-outcomes"><strong>A National RCT of the Impact of Public Montessori Schools on Early Childhood Outcomes</strong></h5>
-<p><strong>David Loeb</strong>*, Angeline S. Lillard, Karen Manship, Emily Daggett, and Juliette Berg. 2025. Paper, Society for Research on Educational Effectiveness.</p>
-</section>
-<section id="the-impact-of-the-montessori-early-childhood-model-in-pk4-and-kindergarten" class="level5">
-<h5 class="anchored" data-anchor-id="the-impact-of-the-montessori-early-childhood-model-in-pk4-and-kindergarten"><strong>The Impact of the Montessori Early Childhood Model in PK4 and Kindergarten</strong></h5>
-<p>Angeline S. Lillard, Mark Lachowicz, Juliette Berg, Karen Manship, Emily Daggett, and <strong>David Loeb</strong>*. 2025. Paper, American Education Research Association.</p>
-</section>
-<section id="typologizing-truancy-policy-a-cross-state-critical-analysis-of-truancy-policies-using-mixed-methods" class="level5">
-<h5 class="anchored" data-anchor-id="typologizing-truancy-policy-a-cross-state-critical-analysis-of-truancy-policies-using-mixed-methods"><strong>Typologizing Truancy Policy: A Cross-State Critical Analysis of Truancy Policies Using Mixed Methods</strong></h5>
-<p>Ericka S. Weathers, <strong>David Loeb</strong>, and Rebecca Rock. 2025. Roundtable, American Education Research Association.</p>
-</section>
-<section id="medicaid-free-care-reversals-impact-on-district-staffing-and-finances" class="level5">
-<h5 class="anchored" data-anchor-id="medicaid-free-care-reversals-impact-on-district-staffing-and-finances"><strong>Medicaid “Free Care” Reversal’s Impact on District Staffing and Finances</strong></h5>
-<p><strong>David Loeb</strong>* and Katie Pullom. 2025. Paper, Association for Education Finance and Policy.</p>
-</section>
-<section id="segregation-and-willingness-to-fund-public-schools-at-the-local-and-state-levels" class="level5">
-<h5 class="anchored" data-anchor-id="segregation-and-willingness-to-fund-public-schools-at-the-local-and-state-levels"><strong>Segregation and Willingness to Fund Public Schools at the Local and State Levels</strong></h5>
-<p><strong>David Loeb</strong>*. 2024. Paper, Association for Public Policy Analysis and Management.</p>
-</section>
-<section id="identifying-curriculum-and-book-restriction-activity-using-school-board-meeting-minutes" class="level5">
-<h5 class="anchored" data-anchor-id="identifying-curriculum-and-book-restriction-activity-using-school-board-meeting-minutes"><strong>Identifying Curriculum and Book Restriction Activity Using School Board Meeting Minutes</strong></h5>
-<p><strong>David Loeb</strong>*. 2024. Poster, Society for Research on Educational Effectiveness.</p>
-</section>
-<section id="the-role-of-home-values-in-linking-segregation-and-school-district-funding-disparities" class="level5">
-<h5 class="anchored" data-anchor-id="the-role-of-home-values-in-linking-segregation-and-school-district-funding-disparities"><strong>The Role of Home Values in Linking Segregation and School District Funding Disparities</strong></h5>
-<p><strong>David Loeb</strong>*. 2024. Paper, American Education Research Association.</p>
-</section>
-<section id="absence-unexcused-using-administrative-data-to-explore-patterns-and-predictors-of-habitual-truancy-in-pennsylvania-1" class="level5">
-<h5 class="anchored" data-anchor-id="absence-unexcused-using-administrative-data-to-explore-patterns-and-predictors-of-habitual-truancy-in-pennsylvania-1"><strong>Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania</strong></h5>
-<p>Ericka S. Weathers, Ismael G. Muñoz, and <strong>David Loeb</strong>*. 2023. Poster, Association for Education Finance and Policy.</p>
+<div id="listing-in-progress" class="quarto-listing quarto-listing-container-custom">
+
+  <div class="list">
+    <div class="research-card">
+
+      <div class="research-title research-content">
+        
+          The Impact of the Medicaid "Free Care" Reversal on School District Finances and Staffing
+        
+      </div>
+
+      
+
+      
+
+      
+
+      
+        <div class="research-links research-links-empty">&nbsp;</div>
+      
+
+    </div>
+  </div>
+
+  <div class="list">
+    <div class="research-card">
+
+      <div class="research-title research-content">
+        
+          Do School Finance Reforms Reduce Non-Education State Spending?
+        
+      </div>
+
+      
+        <p class="research-authors research-content">with Chris Wodicka</p>
+      
+
+      
+
+      
+
+      
+        <div class="research-links research-links-empty">&nbsp;</div>
+      
+
+    </div>
+  </div>
+
+  <div class="list">
+    <div class="research-card">
+
+      <div class="research-title research-content">
+        
+          A Practical Guide to Missing Data Handling in Education RCTs
+        
+      </div>
+
+      
+        <p class="research-authors research-content">with Catherine Asher and Robin Jacob</p>
+      
+
+      
+
+      
+
+      
+        <div class="research-links research-links-empty">&nbsp;</div>
+      
+
+    </div>
+  </div>
+
+  <div class="list">
+    <div class="research-card">
+
+      <div class="research-title research-content">
+        
+          School District Demographic Change and the Willingness to Fund Local Public Schools
+        
+      </div>
+
+      
+
+      
+
+      
+
+      
+        <div class="research-links research-links-empty">&nbsp;</div>
+      
+
+    </div>
+  </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
-</section>
+
 </section>
 
 </main> <!-- /main -->

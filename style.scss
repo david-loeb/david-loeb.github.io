@@ -6,14 +6,13 @@ h5 {
   margin-bottom: 0px;
 }
 
-/* Make navbar green on hover */
 .nav-link:hover,
 .nav-link.active,
 .navbar-brand:hover {
   color: light-dark(#18bc9c, #00bc8c) !important;
 }
 
-/* Modify link underlining */
+/* Code for modifying link underlining */
 a {
   text-decoration: none;
 }

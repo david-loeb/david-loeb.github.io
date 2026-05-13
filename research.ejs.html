@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Software – David Loeb</title>
+<title>research.ejs – David Loeb</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-87adcb20eb0796dc8d2bf2b639348c2d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-40396ddc4449bd7460ee341c5be625e9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-87adcb20eb0796dc8d2bf2b639348c2d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b1a9dad27405968d87b5a859284fb0bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1bcb84067da0f479ac39ca30d285420c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-b1a9dad27405968d87b5a859284fb0bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -270,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./software.html" aria-current="page"> 
+    <a class="nav-link" href="./software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
@@ -299,49 +299,37 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Software</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<style>
+.research-card {
+  background: #ffffff;
+  border: 1px solid #e0dbd4;
+  border-radius: 0.25rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+</style>
+
+&lt;% for (const item of items) { %&gt;
+  <div class="list">
+    <div class="research-card">
+      <h5 class="card-title anchored">
+        &lt;% if (item.url) { %&gt;
+          <a href="<%- item.url %>" target="_blank">&lt;%- item.title %&gt;</a>
+        &lt;% } else { %&gt;
+          &lt;%- item.title %&gt;
+        &lt;% } %&gt;
+      </h5>
+&lt;% } %&gt;
 
 
-<section id="edid-efficient-difference-in-differences-estimator" class="level2">
-<h2 class="anchored" data-anchor-id="edid-efficient-difference-in-differences-estimator"><iconify-icon role="img" inline="" icon="mdi:language-r" aria-label="Icon language-r from mdi Iconify.design set." title="Icon language-r from mdi Iconify.design set."></iconify-icon> <a href="https://github.com/david-loeb/edid" target="_blank">{edid}: Efficient difference-in-differences estimator</a></h2>
-<p>R package that implements the efficient difference-in-differences and event study estimators developed by <a href="https://arxiv.org/abs/2506.17729" target="_blank">Chen, Sant’Anna, and Xie (2025)</a> in “Efficient Difference-in-Differences and Event Study Estimators.” The estimator builds on the group-time average treatment effect (ATT(g,t)) estimators developed by <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304407620303948" target="_blank">Callaway and Sant’Anna (2021)</a>. It finds weights that produce the optimally efficient combinations of the sub-ATT(g,t)’s that form an overall ATT(g,t), yielding smaller standard errors. The {edid} package is currently the only publicly available implementation of the estimator.</p>
-<p>Visit the <a href="https://github.com/david-loeb/edid" target="_blank">{edid} <iconify-icon role="img" inline="" icon="fa:github" aria-label="Icon github from fa Iconify.design set." title="Icon github from fa Iconify.design set."></iconify-icon> GitHub page</a> for a package overview, installation instructions and source code.</p>
-</section>
-<section id="missing-data-scenarios-in-rcts" class="level2">
-<h2 class="anchored" data-anchor-id="missing-data-scenarios-in-rcts"><iconify-icon role="img" inline="" icon="mdi:language-r" aria-label="Icon language-r from mdi Iconify.design set." title="Icon language-r from mdi Iconify.design set."></iconify-icon> <a href="https://davidloeb-missing-data-app.share.connect.posit.cloud/" target="_blank">Missing Data Scenarios in RCTs</a></h2>
-<p>R Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:</p>
-<ul>
-<li>Listwise deletion</li>
-<li>Mean / dummy variable imputation</li>
-<li>Full information maximum likelihood</li>
-<li>Multiple imputation</li>
-</ul>
-<p>The app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the “true” result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).</p>
-<p>Vist the <a href="https://davidloeb-missing-data-app.share.connect.posit.cloud/" target="_blank"><iconify-icon role="img" inline="" icon="mdi:language-r" aria-label="Icon language-r from mdi Iconify.design set." title="Icon language-r from mdi Iconify.design set."></iconify-icon> app webpage</a> to try it out. You can also view the <a href="https://github.com/david-loeb/missing-data-app" target="_blank">source code on <iconify-icon role="img" inline="" icon="fa:github" aria-label="Icon github from fa Iconify.design set." title="Icon github from fa Iconify.design set."></iconify-icon> GitHub</a>.</p>
 
-
-</section>
-
-</main> <!-- /main -->
+</div></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -427,7 +415,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/davidloeb\.co");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

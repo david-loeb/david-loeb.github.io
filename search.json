@@ -32,42 +32,14 @@
     "href": "software.html#missing-data-scenarios-in-rcts",
     "title": "Software",
     "section": " Missing Data Scenarios in RCTs",
-    "text": "Missing Data Scenarios in RCTs\nR Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:\n\nListwise deletion\nMean / dummy variable imputation\nFull information maximum likelihood\nMultiple imputation\n\nThe app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the “true” result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).\nVist the app webpage to try it out. You can also view the source code on  GitHub."
+    "text": "Missing Data Scenarios in RCTs\nR Shiny web application that demonstrates the performance of various approaches to missing data handling in RCTs. Twenty different RCT missingness scenarios are examined, which vary based on the variable missing (covariate or outcome), the underlying function driving the missingness (function of covariates, covariates + treatment, outcome, outcome + treatment, or random), and whether a baseline measure of the outcome is included. It demonstrates the performance of the following approaches to handing the missing data:\n\nListwise deletion\nMean / dummy variable imputation\nFull information maximum likelihood\nMultiple imputation\n\nThe app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the “true” result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).\nVist the  app webpage to try it out. You can also view the source code on  GitHub."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "listings/research/template.ejs.html",
+    "href": "listings/research/template.ejs.html",
+    "title": "David Loeb",
     "section": "",
-    "text": "My research covers a range of topics in education, public policy, and quantitative methods, with a particular focus on K-12 education funding."
-  },
-  {
-    "objectID": "research.html#peer-reviewed-journal-articles",
-    "href": "research.html#peer-reviewed-journal-articles",
-    "title": "Research",
-    "section": "Peer-Reviewed Journal Articles",
-    "text": "Peer-Reviewed Journal Articles\n\nA National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten\nAngeline S. Lillard, David Loeb, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett. 2025. Proceedings of the National Academy of Sciences (PNAS).  Replication Code | Open Science Framework Page\n\n\nAbsence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\nEricka S. Weathers, Ismael G. Muñoz, and David Loeb. 2023. The High School Journal."
-  },
-  {
-    "objectID": "research.html#policy-reports-briefs",
-    "href": "research.html#policy-reports-briefs",
-    "title": "Research",
-    "section": "Policy Reports & Briefs",
-    "text": "Policy Reports & Briefs\n\nMassachusetts Child Care Cost Models: Report on 2024 Cost Research and Cost Model Updates\nAmanda Danks, Maya Escueta, Isaac Kaplan, Austin Gragson, David Loeb, and Ashley Darang. 2025. American Institutes for Research.\n\n\nThe Benefits of Adequacy: Estimating the Economic Impacts of Pennsylvania’s Basic Education Funding Commission Proposal\nDavid Loeb, Katie Pullom, and Brooks Bowden. 2024. Center for Benefit-Cost Studies of Education.  Press: The Philadelphia Inqurier, Chalkbeat, KYW Newsradio, The Philadelphia Tribune, Spotlight PA\n\n\nThe Availability of Truancy Data Across States\nEricka S. Weathers and David Loeb. 2022. The Learning Curve, Urban Institute."
-  },
-  {
-    "objectID": "research.html#papers-in-progress",
-    "href": "research.html#papers-in-progress",
-    "title": "Research",
-    "section": "Papers in Progress",
-    "text": "Papers in Progress\n\nThe Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing\n\n\nDo School Finance Reforms Reduce Non-Education State Spending?\nwith Chris Wodicka\n\n\nA Practical Guide to Missing Data Handling in Education RCTs\nwith Catherine Asher and Robin Jacob\n\n\nSchool District Demographic Change and the Willingness to Fund Local Public Schools"
-  },
-  {
-    "objectID": "research.html#conference-presentations",
-    "href": "research.html#conference-presentations",
-    "title": "Research",
-    "section": "Conference Presentations",
-    "text": "Conference Presentations\n*presenting author\n\nPublic Montessori Preschool’s Impact on Achievement Gaps in Kindergarten\nEmily Daggett, Angeline Lillard, David Loeb, and Xin Cynthia Tong. 2026. Paper, American Education Research Association.\n\n\nThe Impact of the Medicaid “Free Care” Reversal on School District Finances and Staffing\nDavid Loeb* and Katie Pullom. 2025. Paper, Association for Public Policy Analysis and Management.\n\n\nA National RCT of the Impact of Public Montessori Schools on Early Childhood Outcomes\nDavid Loeb*, Angeline S. Lillard, Karen Manship, Emily Daggett, and Juliette Berg. 2025. Paper, Society for Research on Educational Effectiveness.\n\n\nThe Impact of the Montessori Early Childhood Model in PK4 and Kindergarten\nAngeline S. Lillard, Mark Lachowicz, Juliette Berg, Karen Manship, Emily Daggett, and David Loeb*. 2025. Paper, American Education Research Association.\n\n\nTypologizing Truancy Policy: A Cross-State Critical Analysis of Truancy Policies Using Mixed Methods\nEricka S. Weathers, David Loeb, and Rebecca Rock. 2025. Roundtable, American Education Research Association.\n\n\nMedicaid “Free Care” Reversal’s Impact on District Staffing and Finances\nDavid Loeb* and Katie Pullom. 2025. Paper, Association for Education Finance and Policy.\n\n\nSegregation and Willingness to Fund Public Schools at the Local and State Levels\nDavid Loeb*. 2024. Paper, Association for Public Policy Analysis and Management.\n\n\nIdentifying Curriculum and Book Restriction Activity Using School Board Meeting Minutes\nDavid Loeb*. 2024. Poster, Society for Research on Educational Effectiveness.\n\n\nThe Role of Home Values in Linking Segregation and School District Funding Disparities\nDavid Loeb*. 2024. Paper, American Education Research Association.\n\n\nAbsence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\nEricka S. Weathers, Ismael G. Muñoz, and David Loeb*. 2023. Poster, Association for Education Finance and Policy."
+    "text": "&lt;% for (const item of items) { %&gt;\n  \n    \n\n      \n        &lt;% if (item.url) { %&gt;\n          &lt;%- item.title %&gt;\n        &lt;% } else { %&gt;\n          &lt;%- item.title %&gt;\n        &lt;% } %&gt;\n      \n\n      &lt;% if (item.authors) { %&gt;\n        &lt;%= item.authors %&gt;\n      &lt;% } %&gt;\n\n      &lt;% if (item.publication && item.institution && item.year) { %&gt;\n        \n            &lt;%- item.year %&gt;, &lt;%- item.publication %&gt;, &lt;%- item.institution %&gt;\n        \n      &lt;% } else if (item.publication && item.year) { %&gt;\n        &lt;%- item.year %&gt;, &lt;%- item.publication %&gt;\n      &lt;% } else if (item.institution && item.year) { %&gt;\n        &lt;%- item.year %&gt;, &lt;%- item.institution %&gt;\n      &lt;% } else if (item.year) { %&gt;\n        &lt;%- item.year %&gt;\n      &lt;% } %&gt;\n\n      &lt;% if (item.press) { %&gt;\n        \n          Press: &lt;% for (let i = 0; i &lt; item.press.length; i++) { \n            if (i === item.press.length - 1) { %&gt;\n              &lt;%- item.press[i].outlet %&gt;\n            &lt;% } else { %&gt;\n              &lt;%- item.press[i].outlet %&gt;, \n            &lt;% } %&gt;\n          &lt;% } %&gt;\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.links) { %&gt;\n        \n          &lt;% for (const link of item.links) { %&gt;\n            \n               &lt;%= link.name %&gt;\n            \n          &lt;% } %&gt;\n        \n      &lt;% } else { %&gt;\n         \n      &lt;% } %&gt;\n\n    \n  \n&lt;% } %&gt;"
   },
   {
     "objectID": "teaching.html",
@@ -81,7 +53,7 @@
     "href": "teaching.html#workshops",
     "title": "Teaching",
     "section": "Workshops",
-    "text": "Workshops\n\nMissing Data Handling for Policy Research and RCTs\nA two-hour workshop conducted for the University of Michigan Youth Policy Lab in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.\nView the workshop slides here. R code that implements all of the methods discussed and the workshop slides source code are available on  GitHub.\n\n\n R Fundamentals\nAn introduction to R from the ground up conducted for my research team of five master’s students at the University of Pennsylvania in the winter and spring of 2024. We covered the basic building blocks of R; the creation of datasets by merging, cleaning and wrangling publicly avaialable data; reshaping data; simple descriptive analyses; and mapping. The materials are available on  GitHub.\n\n\n Document Classification with Python\nA demonstration of how to perform the natural language processing technique called document classification with Python conducted for my master’s student research team in the spring of 2024. We covered extracting text from PDFs and other documents into tabular text datasets, pre-processing the text, vectorizing, training a classification model with supervised learning, assessing model performance, and generating labels for all documents in the set. The materials are available on  GitHub.\n\n\n Web Scraping with Python\nAn introduction to web scraping in Python conducted for a small group doctoral students in September 2023. View the workshop slides here. A Python script with code for the workflow discussed and the workshop slides source code are available on  GitHub."
+    "text": "Workshops\n\n Missing Data Handling for Policy Research and RCTs\nA two-hour workshop conducted for the University of Michigan Youth Policy Lab in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.\nView the workshop slides here. R code that implements all of the methods discussed and the workshop slides source code are available on  GitHub.\n\n\n R Fundamentals\nAn introduction to R from the ground up conducted for my research team of five master’s students at the University of Pennsylvania in the winter and spring of 2024. We covered the basic building blocks of R; the creation of datasets by merging, cleaning and wrangling publicly avaialable data; reshaping data; simple descriptive analyses; and mapping. The materials are available on  GitHub.\n\n\n Document Classification with Python\nA demonstration of how to perform the natural language processing technique called document classification with Python conducted for my master’s student research team in the spring of 2024. We covered extracting text from PDFs and other documents into tabular text datasets, pre-processing the text, vectorizing, training a classification model with supervised learning, assessing model performance, and generating labels for all documents in the set. The materials are available on  GitHub.\n\n\n Web Scraping with Python\nAn introduction to web scraping in Python conducted for a small group doctoral students in September 2023. View the workshop slides here. A Python script with code for the workflow discussed and the workshop slides source code are available on  GitHub."
   },
   {
     "objectID": "teaching.html#courses",
@@ -96,6 +68,34 @@
     "title": "Teaching",
     "section": "Mentorship",
     "text": "Mentorship\nI mentored a team of five education policy master’s students at the University of Pennsylvania during the winter and spring of 2024. I taught them how to work with data in R and demonstrated the general quantitative research process. I continued to mentor two of the students after they graduated, working with them one-on-one to develop their quantitative research skills and supporting one through her PhD application process."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research covers a range of topics in education, public policy, and quantitative methods, with a particular focus on K-12 education funding."
+  },
+  {
+    "objectID": "research.html#journal-articles",
+    "href": "research.html#journal-articles",
+    "title": "Research",
+    "section": "Journal Articles",
+    "text": "Journal Articles\n\n\n  \n    \n\n      \n        \n          A National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten\n        \n      \n\n      \n        Angeline S. Lillard, David Loeb, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett\n      \n\n      \n        2025, Proceedings of the National Academy of Sciences (PNAS)\n      \n\n      \n\n      \n        \n          \n            \n               Code\n            \n          \n            \n               Data\n            \n          \n        \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\n        \n      \n\n      \n        Ericka S. Weathers, Ismael G. Muñoz, and David Loeb\n      \n\n      \n        2023, The High School Journal\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\nNo matching items"
+  },
+  {
+    "objectID": "research.html#policy-reports-briefs",
+    "href": "research.html#policy-reports-briefs",
+    "title": "Research",
+    "section": "Policy Reports & Briefs",
+    "text": "Policy Reports & Briefs\n\n\n  \n    \n\n      \n        \n          Massachusetts Child Care Cost Models: Report on 2024 Cost Research and Cost Model Updates\n        \n      \n\n      \n        Amanda Danks, Maya Escueta, Isaac Kaplan, Austin Gragson, David Loeb, and Ashley Darang\n      \n\n      \n        2025, American Institutes for Research\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          The Benefits of Adequacy: Estimating the Economic Impacts of Pennsylvania's Basic Education Funding Commission Proposal\n        \n      \n\n      \n        David Loeb, Katie Pullom, and Brooks Bowden\n      \n\n      \n        2024, Center for Benefit-Cost Studies of Education\n      \n\n      \n        \n          Press: \n              The Philadelphia Inquirer, \n            \n          \n              Chalkbeat, \n            \n          \n              KYW Newsradio, \n            \n          \n              The Philadelphia Tribune, \n            \n          \n              Spotlight PA\n            \n          \n        \n      \n\n      \n         \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          The Availability of Truancy Data Across States\n        \n      \n\n      \n        Ericka S. Weathers and David Loeb\n      \n\n      \n        \n            2022, The Learning Curve, Urban Institute\n        \n      \n\n      \n\n      \n         \n      \n\n    \n  \n\nNo matching items"
+  },
+  {
+    "objectID": "research.html#papers-in-progress",
+    "href": "research.html#papers-in-progress",
+    "title": "Research",
+    "section": "Papers in Progress",
+    "text": "Papers in Progress\n\n\n  \n    \n\n      \n        \n          The Impact of the Medicaid \"Free Care\" Reversal on School District Finances and Staffing\n        \n      \n\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          Do School Finance Reforms Reduce Non-Education State Spending?\n        \n      \n\n      \n        with Chris Wodicka\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          A Practical Guide to Missing Data Handling in Education RCTs\n        \n      \n\n      \n        with Catherine Asher and Robin Jacob\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          School District Demographic Change and the Willingness to Fund Local Public Schools\n        \n      \n\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\nNo matching items"
   },
   {
     "objectID": "index.html",
