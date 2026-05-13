@@ -1,0 +1,86 @@
+/*-- scss:rules --*/
+
+// ==== Card formatting for research page listing ==== //
+
+.research-card {
+  border-left: 6px solid $light;
+  border-radius: 0.25em;
+  padding: 0;
+  margin-top: 2.5em;
+}
+
+.research-title {
+  font-size: $h5-font-size;
+}
+
+.research-content {
+  padding: 0 1em;
+  margin-bottom: 8px;
+}
+
+.research-links {
+  background-color: $light;
+  margin-left: -1px;
+}
+
+.research-link {
+  padding: 0 0 0 1em;
+}
+
+.research-links-empty {
+  box-sizing: content-box;
+  height: 10px;
+}
+
+// ==== General CSS ==== //
+
+h5 {
+  margin-top: 26px;
+}
+
+.listp p {
+  margin-bottom: 0px;
+}
+
+// Make navbar green on hover
+.nav-link:hover,
+.nav-link.active,
+.navbar-brand:hover {
+  color: $success !important;
+}
+
+// Modify link underlining
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  text-decoration: none !important;
+}
+
+/* Animate underline of navbar links on hover 
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  transition: all ease-in-out 0.2s;
+  height: 2px;
+  width: 0%;
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0%
+}
+*/

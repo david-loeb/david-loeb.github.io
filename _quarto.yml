@@ -23,12 +23,6 @@ website:
 format:
   html:
     theme:
-      #light: pulse
-      #light: yeti
-      light: [flatly, themes/listing-card.scss]
-      #light: [flatly, themes/flatly-purple.scss]
-      #light: [flatly, themes/flatly-blue.scss]
-      dark: [darkly, themes/listing-card.scss]
-      #dark: [darkly, themes/darkly-purple.scss]
-    css: style.css
+      light: [flatly, style.scss]
+      dark: [darkly, style.scss]
     respect-user-color-scheme: true
