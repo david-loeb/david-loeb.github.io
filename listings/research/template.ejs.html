@@ -311,9 +311,9 @@ ul.task-list li input[type="checkbox"] {
 
       <div class="research-title research-content">
         &lt;% if (item.url) { %&gt;
-          <a href="<%- item.url %>" target="_blank">&lt;%- item.title %&gt;</a>
+          <a href="<%- item.url %>" target="_blank"><b>&lt;%- item.title %&gt;</b></a>
         &lt;% } else { %&gt;
-          &lt;%- item.title %&gt;
+          <b>&lt;%- item.title %&gt;</b>
         &lt;% } %&gt;
       </div>
 
@@ -326,9 +326,13 @@ ul.task-list li input[type="checkbox"] {
             &lt;%- item.year %&gt;, <i>&lt;%- item.publication %&gt;</i>, &lt;%- item.institution %&gt;
         </p>
       &lt;% } else if (item.publication &amp;&amp; item.year) { %&gt;
-        <p class="research-pub research-content">&lt;%- item.year %&gt;, <i>&lt;%- item.publication %&gt;</i></p>
+        <p class="research-pub research-content">
+          &lt;%- item.year %&gt;, <i>&lt;%- item.publication %&gt;</i>
+        </p>
       &lt;% } else if (item.institution &amp;&amp; item.year) { %&gt;
-        <p class="research-pub research-content">&lt;%- item.year %&gt;, &lt;%- item.institution %&gt;</p>
+        <p class="research-pub research-content">
+          &lt;%- item.year %&gt;, &lt;%- item.institution %&gt;
+        </p>
       &lt;% } else if (item.year) { %&gt;
         <p class="research-pub research-content">&lt;%- item.year %&gt;</p>
       &lt;% } %&gt;
@@ -337,9 +341,13 @@ ul.task-list li input[type="checkbox"] {
         <p class="research-press research-content"><i>
           Press: &lt;% for (let i = 0; i &lt; item.press.length; i++) { 
             if (i === item.press.length - 1) { %&gt;
-              <a href="<%- item.press[i].url %>" target="_blank">&lt;%- item.press[i].outlet %&gt;</a>
+              <a href="<%- item.press[i].url %>" target="_blank">
+                &lt;%- item.press[i].outlet %&gt;
+              </a>
             &lt;% } else { %&gt;
-              <a href="<%- item.press[i].url %>" target="_blank">&lt;%- item.press[i].outlet %&gt;</a>, 
+              <a href="<%- item.press[i].url %>" target="_blank">
+                &lt;%- item.press[i].outlet %&gt;
+              </a>, 
             &lt;% } %&gt;
           &lt;% } %&gt;
         </i></p>
