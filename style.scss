@@ -34,22 +34,15 @@
 
 // ==== General CSS ==== //
 
-h5 {
-  margin-top: 26px;
-}
-
-.listp p {
-  margin-bottom: 0px;
-}
-
-// Make navbar green on hover
+// Make navbar links green on hover & when active
 .nav-link:hover,
+.navbar-brand:hover,
 .nav-link.active,
-.navbar-brand:hover {
+.navbar-brand.active {
   color: $success !important;
 }
 
-// Modify link underlining
+// Underline links in body on hover only
 a {
   text-decoration: none;
 }
@@ -61,26 +54,3 @@ a:hover {
 nav a {
   text-decoration: none !important;
 }
-
-/* Animate underline of navbar links on hover 
-.nav-link {
-  position: relative;
-}
-
-.nav-link::after {
-  content: '';
-  display: block;
-  transition: all ease-in-out 0.2s;
-  height: 2px;
-  width: 0%;
-  background-color: green;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-}
-
-.nav-link:hover::after {
-  width: 100%;
-  left: 0%
-}
-*/

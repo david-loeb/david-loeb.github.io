@@ -26,3 +26,13 @@ format:
       light: [flatly, style.scss]
       dark: [darkly, style.scss]
     respect-user-color-scheme: true
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const homePageNavLink = document.querySelector(".navbar-brand");
+          if (homePageNavLink.href === window.location.href) {
+            homePageNavLink.classList.add("active");
+          }
+        });
+        </script>
