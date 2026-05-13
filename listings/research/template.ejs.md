@@ -5,9 +5,9 @@
 
       <div class="research-title research-content">
         <% if (item.url) { %>
-          <a href="<%- item.url %>" target="_blank"><%- item.title %></a>
+          <a href="<%- item.url %>" target="_blank"><b><%- item.title %></b></a>
         <% } else { %>
-          <%- item.title %>
+          <b><%- item.title %></b>
         <% } %>
       </div>
 
@@ -20,9 +20,13 @@
             <%- item.year %>, <i><%- item.publication %></i>, <%- item.institution %>
         </p>
       <% } else if (item.publication && item.year) { %>
-        <p class="research-pub research-content"><%- item.year %>, <i><%- item.publication %></i></p>
+        <p class="research-pub research-content">
+          <%- item.year %>, <i><%- item.publication %></i>
+        </p>
       <% } else if (item.institution && item.year) { %>
-        <p class="research-pub research-content"><%- item.year %>, <%- item.institution %></p>
+        <p class="research-pub research-content">
+          <%- item.year %>, <%- item.institution %>
+        </p>
       <% } else if (item.year) { %>
         <p class="research-pub research-content"><%- item.year %></p>
       <% } %>
@@ -31,9 +35,13 @@
         <p class="research-press research-content"><i>
           Press: <% for (let i = 0; i < item.press.length; i++) { 
             if (i === item.press.length - 1) { %>
-              <a href="<%- item.press[i].url %>" target="_blank"><%- item.press[i].outlet %></a>
+              <a href="<%- item.press[i].url %>" target="_blank">
+                <%- item.press[i].outlet %>
+              </a>
             <% } else { %>
-              <a href="<%- item.press[i].url %>" target="_blank"><%- item.press[i].outlet %></a>, 
+              <a href="<%- item.press[i].url %>" target="_blank">
+                <%- item.press[i].outlet %>
+              </a>, 
             <% } %>
           <% } %>
         </i></p>
