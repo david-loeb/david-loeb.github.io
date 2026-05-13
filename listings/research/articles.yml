@@ -1,0 +1,19 @@
+- title: "A National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten"
+  url: "https://www.pnas.org/doi/10.1073/pnas.2506130122"
+  authors: "Angeline S. Lillard, <strong>David Loeb</strong>, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett"
+  year: 2025
+  publication: "Proceedings of the National Academy of Sciences (PNAS)"
+  links:
+    - name: "Code"
+      icon: bi bi-github
+      url: "https://github.com/david-loeb/montessori-rct"
+    - name: "Data"
+      icon: bi bi-table
+      url: "https://osf.io/cp8xg/overview"
+
+- title: "Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania"
+  url: "https://doi.org/10.1353/hsj.2023.a930442"
+  authors: "Ericka S. Weathers, Ismael G. Muñoz, and <strong>David Loeb</strong>"
+  year: 2023
+  publication: "The High School Journal"
+

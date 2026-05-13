@@ -1,89 +1,30 @@
 ---
 title: "Research"
+listing:
+  - id: articles
+    contents: listings/research/articles.yml
+    template: listings/research/template.ejs.md
+  - id: reports
+    contents: listings/research/reports.yml
+    template: listings/research/template.ejs.md
+  - id: in-progress
+    contents: listings/research/in-progress.yml
+    template: listings/research/template.ejs.md
 ---
 
 My research covers a range of topics in education, public policy, and quantitative methods, with a particular focus on K-12 education funding.
 
-## Peer-Reviewed Journal Articles
+## Journal Articles
 
-##### [**A National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten**](https://www.pnas.org/doi/10.1073/pnas.2506130122){target="_blank"}
-
-Angeline S. Lillard, **David Loeb**, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett. 2025. *Proceedings of the National Academy of Sciences (PNAS).* <br>
-[Replication Code](https://github.com/david-loeb/montessori-rct){target="_blank"} | [Open Science Framework Page](https://osf.io/vuc42/){target="_blank"}
-
-##### [**Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania**](https://doi.org/10.1353/hsj.2023.a930442){target="_blank"}
-
-Ericka S. Weathers, Ismael G. Muñoz, and **David Loeb**. 2023. *The High School Journal*.
+::: {#articles}
+:::
 
 ## Policy Reports & Briefs
 
-##### [**Massachusetts Child Care Cost Models: Report on 2024 Cost Research and Cost Model Updates**](https://eric.ed.gov/?id=ED674321){target="_blank"}
-
-Amanda Danks, Maya Escueta, Isaac Kaplan, Austin Gragson, **David Loeb**, and Ashley Darang. 2025. American Institutes for Research.
-
-##### [**The Benefits of Adequacy: Estimating the Economic Impacts of Pennsylvania's Basic Education Funding Commission Proposal**](https://www.cbcse.org/publications/pa2024){target="_blank"}
-
-**David Loeb**, Katie Pullom, and Brooks Bowden. 2024. Center for Benefit-Cost Studies of Education. <br>
-*Press*: [*The Philadelphia Inqurier*](https://www.inquirer.com/education/pennsylvania-education-funding-benefits-school-penn-research-20240619.html){target="_blank"}, [*Chalkbeat*](https://www.chalkbeat.org/philadelphia/2024/06/20/upenn-report-51-billion-k12-school-spending-hike-will-yield-benefits-exceeding-cost/){target="_blank"}, [*KYW Newsradio*](https://www.audacy.com/kywnewsradio/news/local/penn-analysis-supports-pa-education-funding-boost){target="_blank"}, [*The Philadelphia Tribune*](https://www.phillytrib.com/news/local_news/proposed-5b-funding-formula-would-help-struggling-schools-in-pennsylvania-new-report-says/article_0caa2dfc-eb78-54fb-a791-aae129f17fa7.html){target="_blank"}, [*Spotlight PA*](https://www.spotlightpa.org/news/2024/06/budget-deadline-education-funding-surplus-deal-pennsylvania-taxes/){target="_blank"}
-
-##### [**The Availability of Truancy Data Across States**](https://www.urban.org/research/publication/availability-truancy-data-across-states){target="_blank"}
-
-Ericka S. Weathers and **David Loeb**. 2022. *The Learning Curve*, Urban Institute.
+::: {#reports}
+:::
 
 ## Papers in Progress
 
-##### **The Impact of the Medicaid "Free Care" Reversal on School District Finances and Staffing**
-
-##### **Do School Finance Reforms Reduce Non-Education State Spending?**
-
-with Chris Wodicka
-
-##### **A Practical Guide to Missing Data Handling in Education RCTs**
-
-with Catherine Asher and Robin Jacob
-
-##### **School District Demographic Change and the Willingness to Fund Local Public Schools**
-
-## Conference Presentations
-
-\**presenting author*
-
-##### **Public Montessori Preschool's Impact on Achievement Gaps in Kindergarten**
-
-Emily Daggett, Angeline Lillard, **David Loeb**, and Xin Cynthia Tong. 2026. Paper, American Education Research Association.
-
-##### **The Impact of the Medicaid "Free Care" Reversal on School District Finances and Staffing**
-
-**David Loeb**\* and Katie Pullom. 2025. Paper, Association for Public Policy Analysis and Management.
-
-##### **A National RCT of the Impact of Public Montessori Schools on Early Childhood Outcomes**
-
-**David Loeb**\*, Angeline S. Lillard, Karen Manship, Emily Daggett, and Juliette Berg. 2025. Paper, Society for Research on Educational Effectiveness.
-
-##### **The Impact of the Montessori Early Childhood Model in PK4 and Kindergarten**
-
-Angeline S. Lillard, Mark Lachowicz, Juliette Berg, Karen Manship, Emily Daggett, and **David Loeb**\*. 2025. Paper, American Education Research Association.
-
-##### **Typologizing Truancy Policy: A Cross-State Critical Analysis of Truancy Policies Using Mixed Methods**
-
-Ericka S. Weathers, **David Loeb**, and Rebecca Rock. 2025. Roundtable, American Education Research Association.
-
-##### **Medicaid “Free Care” Reversal’s Impact on District Staffing and Finances**
-
-**David Loeb**\* and Katie Pullom. 2025. Paper, Association for Education Finance and Policy.
-
-##### **Segregation and Willingness to Fund Public Schools at the Local and State Levels**
-
-**David Loeb**\*. 2024. Paper, Association for Public Policy Analysis and Management.
-
-##### **Identifying Curriculum and Book Restriction Activity Using School Board Meeting Minutes**
-
-**David Loeb**\*. 2024. Poster, Society for Research on Educational Effectiveness.
-
-##### **The Role of Home Values in Linking Segregation and School District Funding Disparities**
-
-**David Loeb**\*. 2024. Paper, American Education Research Association.
-
-##### **Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania**
-
-Ericka S. Weathers, Ismael G. Muñoz, and **David Loeb**\*. 2023. Poster, Association for Education Finance and Policy.
+::: {#in-progress}
+:::

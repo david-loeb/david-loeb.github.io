@@ -19,4 +19,4 @@ R Shiny web application that demonstrates the performance of various approaches 
 
 The app provides interactive displays of results both visually and in regression table form, allowing the user to compare how closely each strategy comes to the "true" result. Each missingness function is also displayed in an equation and directed acyclic graph (DAG).
 
-[Vist the app webpage](https://davidloeb-missing-data-app.share.connect.posit.cloud/){target="_blank"} to try it out. You can also view the [source code on {{< iconify fa github >}} GitHub](https://github.com/david-loeb/missing-data-app){target="_blank"}.
+Vist the [{{< iconify mdi language-r >}} app webpage](https://davidloeb-missing-data-app.share.connect.posit.cloud/){target="_blank"} to try it out. You can also view the [source code on {{< iconify fa github >}} GitHub](https://github.com/david-loeb/missing-data-app){target="_blank"}.

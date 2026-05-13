@@ -6,7 +6,7 @@ I have taught several research and programming workshops, served as a teaching a
 
 ## Workshops
 
-### [Missing Data Handling for Policy Research and RCTs](https://davidloeb.co/missing-data-wkshp/#/title-slide){target="_blank"}
+### {{< iconify carbon data-analytics >}} [Missing Data Handling for Policy Research and RCTs](https://davidloeb.co/missing-data-wkshp/#/title-slide){target="_blank"}
 
 A two-hour workshop conducted for the [University of Michigan Youth Policy Lab](https://youthpolicylab.umich.edu){target="_blank"} in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.
 

@@ -25,10 +25,10 @@ format:
     theme:
       #light: pulse
       #light: yeti
-      light: flatly
+      light: [flatly, themes/listing-card.scss]
       #light: [flatly, themes/flatly-purple.scss]
       #light: [flatly, themes/flatly-blue.scss]
-      dark: darkly
+      dark: [darkly, themes/listing-card.scss]
       #dark: [darkly, themes/darkly-purple.scss]
     css: style.css
     respect-user-color-scheme: true
