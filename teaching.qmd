@@ -18,7 +18,7 @@ An introduction to R from the ground up conducted for my research team of five m
 
 ### {{< iconify fa-brands python >}} [Document Classification with Python](https://github.com/david-loeb/doc-classification-py-wkshp){target="_blank"}
 
-A demonstration of how to perform the natural language processing technique called document classification with Python conducted for my master's student research team in the spring of 2024. We covered extracting text from PDFs and other documents into tabular text datasets, pre-processing the text, vectorizing, training a classification model with supervised learning, assessing model performance, and generating labels for all documents in the set. The materials are [available on {{< iconify fa github >}} GitHub](https://github.com/david-loeb/doc-classification-py-wkshp){target="_blank"}.
+A document classification demonstration in Python conducted for my master's student research team in the spring of 2024. We covered extracting text from PDFs and other documents into tabular text datasets, pre-processing the text, vectorizing, training a classification model with supervised learning, assessing model performance, and generating labels for all documents in the set. The materials are [available on {{< iconify fa github >}} GitHub](https://github.com/david-loeb/doc-classification-py-wkshp){target="_blank"}.
 
 ### {{< iconify fa-brands python >}} [Web Scraping with Python](https://davidloeb.co/web-scraping-py-wkshp/#/title-slide){target="_blank"}
 
@@ -28,8 +28,8 @@ An introduction to web scraping in Python conducted for a small group doctoral s
 
 ### Sociology of Education (EDUC 5782)
 
-Teaching assistant for this master's level course at the University of Pennsylvania in the fall of 2024. The instructor Dr. Ericka Weathers and I created the course from scratch. I lectured on school funding policy and inequality and gave a brief primer on the fundamentals of the U.S. education system.
+Teaching assistant for this master's level course at the University of Pennsylvania in the fall of 2024.
 
 ## Mentorship
 
-I mentored a team of five education policy master's students at the University of Pennsylvania during the winter and spring of 2024. I taught them how to work with data in R and demonstrated the general quantitative research process. I continued to mentor two of the students after they graduated, working with them one-on-one to develop their quantitative research skills and supporting one through her PhD application process.
+I mentored a research team of five education policy master's students at the University of Pennsylvania during the winter and spring of 2024.

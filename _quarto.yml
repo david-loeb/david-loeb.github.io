@@ -5,7 +5,7 @@ project:
 
 website:
   title: "David Loeb"
-  favicon: files/favicon-teal.svg
+  favicon: files/favicon.svg
   navbar:
     left:
       - research.qmd
@@ -13,7 +13,7 @@ website:
       - teaching.qmd
       - href: cv.qmd
         text: "CV"
-      - blog.qmd
+      # - blog.qmd  # removing for now
     search: false
   page-footer: 
     right: 'Built with [{{< iconify simple-icons quarto >}} Quarto](https://quarto.org){target="_blank"}<br>[View source on {{< iconify fa github >}} GitHub](https://github.com/david-loeb/david-loeb.github.io){target="_blank"}'
