@@ -23,4 +23,4 @@ about:
 
 I am an assistant professor in the [Research, Evaluation, Statistics and Assessment (RESA)](https://www.usm.edu/graduate-programs/educational-research.php){target="_blank"} program at [The University of Southern Mississippi](https://www.usm.edu){target="_blank"}. I received a Ph.D. in education policy from the [University of Pennsylvania Graduate School of Education](https://www.gse.upenn.edu){target="_blank"} with a dual A.M. in statistics from the [Wharton School](https://www.wharton.upenn.edu){target="_blank"} in 2026.
 
-I primarily research K-12 education funding and other policies that affect resources for low-income students and families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design.
+I primarily research K-12 education funding and other policies that affect low-income students and families. I use quantitative research methods with a focus on causal inference through experimental and quasi-experimental design.
