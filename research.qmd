@@ -4,6 +4,9 @@ listing:
   - id: articles
     contents: listings/research/articles.yml
     template: listings/research/template.ejs.md
+  - id: under-review
+    contents: listings/research/under-review.yml
+    template: listings/research/template.ejs.md
   - id: reports
     contents: listings/research/reports.yml
     template: listings/research/template.ejs.md
@@ -17,6 +20,11 @@ My research covers a range of topics in education, public policy, and quantitati
 ## Journal Articles
 
 ::: {#articles}
+:::
+
+#### *Under Review*
+
+::: {#under-review}
 :::
 
 ## Policy Reports & Briefs
