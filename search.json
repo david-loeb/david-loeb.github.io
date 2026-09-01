@@ -46,7 +46,14 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "I have taught several research and programming workshops, served as a teaching assistant, and mentored education policy master’s students."
+    "text": "I am currently teaching program evaluation to doctoral students at The University of Southern Mississippi. I have also taught several research and programming workshops, served as a teaching assistant, and mentored education policy master’s students."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\nProgram Evaluation (REF 770)\nDoctoral course at The University of Southern Mississippi in the fall of 2026.\n\n\nSociology of Education (EDUC 5782)\nTeaching assistant for this master’s level course at the University of Pennsylvania in the fall of 2024."
   },
   {
     "objectID": "teaching.html#workshops",
@@ -54,13 +61,6 @@
     "title": "Teaching",
     "section": "Workshops",
     "text": "Workshops\n\n Missing Data Handling for Policy Research and RCTs\nA two-hour workshop conducted for the University of Michigan Youth Policy Lab in May 2025. I provided a detailed demonstration of the performance of the major missing data handling strategies with a particular focus on the randomized controlled trial (RCT) setting. I explained how full information maximum likelihood (FIML) and mutliple imputation (MI) work and why they typically outperform other methods. However, I also showed why simpler methods will often perform just as well as FIML and MI in RCTs. None of these methods are perfect, and I ended with a demonstration of sensitivity analyses for violations of their core assumptions.\nView the workshop slides here. R code that implements all of the methods discussed and the workshop slides source code are available on  GitHub.\n\n\n R Fundamentals\nAn introduction to R from the ground up conducted for my research team of five master’s students at the University of Pennsylvania in the winter and spring of 2024. We covered the basic building blocks of R; the creation of datasets by merging, cleaning and wrangling publicly avaialable data; reshaping data; simple descriptive analyses; and mapping. The materials are available on  GitHub.\n\n\n Document Classification with Python\nA document classification demonstration in Python conducted for my master’s student research team in the spring of 2024. We covered extracting text from PDFs and other documents into tabular text datasets, pre-processing the text, vectorizing, training a classification model with supervised learning, assessing model performance, and generating labels for all documents in the set. The materials are available on  GitHub.\n\n\n Web Scraping with Python\nAn introduction to web scraping in Python conducted for a small group doctoral students in September 2023. View the workshop slides here. A Python script with code for the workflow discussed and the workshop slides source code are available on  GitHub."
-  },
-  {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Teaching",
-    "section": "Courses",
-    "text": "Courses\n\nSociology of Education (EDUC 5782)\nTeaching assistant for this master’s level course at the University of Pennsylvania in the fall of 2024."
   },
   {
     "objectID": "teaching.html#mentorship",
@@ -81,7 +81,7 @@
     "href": "research.html#journal-articles",
     "title": "Research",
     "section": "Journal Articles",
-    "text": "Journal Articles\n\n\n  \n    \n\n      \n        \n          A National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten\n        \n      \n\n      \n        Angeline S. Lillard, David Loeb, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett\n      \n\n      \n        \n          2025, Proceedings of the National Academy of Sciences (PNAS)\n        \n      \n\n      \n\n      \n        \n          \n            \n               Code\n            \n          \n            \n               Data\n            \n          \n        \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\n        \n      \n\n      \n        Ericka S. Weathers, Ismael G. Muñoz, and David Loeb\n      \n\n      \n        \n          2023, The High School Journal\n        \n      \n\n      \n\n      \n         \n      \n\n    \n  \n\nNo matching items"
+    "text": "Journal Articles\n\n\n  \n    \n\n      \n        \n          A National Randomized Controlled Trial of the Impact of Public Montessori Preschool at the End of Kindergarten\n        \n      \n\n      \n        Angeline S. Lillard, David Loeb, Juliette Berg, Maya Escueta, Karen Manship, Alison Hauser, and Emily Daggett\n      \n\n      \n        \n          2025, Proceedings of the National Academy of Sciences (PNAS)\n        \n      \n\n      \n\n      \n        \n          \n            \n               Code\n            \n          \n            \n               Data\n            \n          \n        \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          Absence Unexcused: Using Administrative Data to Explore Patterns and Predictors of Habitual Truancy in Pennsylvania\n        \n      \n\n      \n        Ericka S. Weathers, Ismael G. Muñoz, and David Loeb\n      \n\n      \n        \n          2023, The High School Journal\n        \n      \n\n      \n\n      \n         \n      \n\n    \n  \n\nNo matching items\n\n\nUnder Review\n\n\n  \n    \n\n      \n        \n          The Impact of the Medicaid \"Free Care\" Reversal on School District Finances and Staffing\n        \n      \n\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\nNo matching items"
   },
   {
     "objectID": "research.html#policy-reports-briefs",
@@ -95,7 +95,7 @@
     "href": "research.html#papers-in-progress",
     "title": "Research",
     "section": "Papers in Progress",
-    "text": "Papers in Progress\n\n\n  \n    \n\n      \n        \n          The Impact of the Medicaid \"Free Care\" Reversal on School District Finances and Staffing\n        \n      \n\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          Do School Finance Reforms Reduce Non-Education State Spending?\n        \n      \n\n      \n        with Chris Wodicka\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          A Practical Guide to Missing Data Handling in Education RCTs\n        \n      \n\n      \n        with Catherine Asher and Robin Jacob\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          School District Demographic Change and the Willingness to Fund Local Public Schools\n        \n      \n\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\nNo matching items"
+    "text": "Papers in Progress\n\n\n  \n    \n\n      \n        \n          Do School Finance Reforms Reduce Non-Education State Spending?\n        \n      \n\n      \n        with Chris Wodicka\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\n  \n    \n\n      \n        \n          School District Demographic Change and the Willingness to Fund Local Public Schools\n        \n      \n\n      \n\n      \n\n      \n\n      \n         \n      \n\n    \n  \n\nNo matching items"
   },
   {
     "objectID": "index.html",

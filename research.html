@@ -106,6 +106,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-under-review .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-under-review'] = new List('listing-under-review', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-reports .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -505,6 +533,35 @@ window.Quarto = {
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<section id="under-review" class="level4">
+<h4 class="anchored" data-anchor-id="under-review"><em>Under Review</em></h4>
+<div id="listing-under-review" class="quarto-listing quarto-listing-container-custom">
+
+  <div class="list">
+    <div class="research-card">
+
+      <div class="research-title research-content">
+        
+          <b>The Impact of the Medicaid "Free Care" Reversal on School District Finances and Staffing</b>
+        
+      </div>
+
+      
+
+      
+
+      
+
+      
+        <div class="research-links research-links-empty">&nbsp;</div>
+      
+
+    </div>
+  </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
 </section>
 <section id="policy-reports-briefs" class="level2">
 <h2 class="anchored" data-anchor-id="policy-reports-briefs">Policy Reports &amp; Briefs</h2>
@@ -635,58 +692,12 @@ window.Quarto = {
 
       <div class="research-title research-content">
         
-          <b>The Impact of the Medicaid "Free Care" Reversal on School District Finances and Staffing</b>
-        
-      </div>
-
-      
-
-      
-
-      
-
-      
-        <div class="research-links research-links-empty">&nbsp;</div>
-      
-
-    </div>
-  </div>
-
-  <div class="list">
-    <div class="research-card">
-
-      <div class="research-title research-content">
-        
           <b>Do School Finance Reforms Reduce Non-Education State Spending?</b>
         
       </div>
 
       
         <p class="research-authors research-content">with Chris Wodicka</p>
-      
-
-      
-
-      
-
-      
-        <div class="research-links research-links-empty">&nbsp;</div>
-      
-
-    </div>
-  </div>
-
-  <div class="list">
-    <div class="research-card">
-
-      <div class="research-title research-content">
-        
-          <b>A Practical Guide to Missing Data Handling in Education RCTs</b>
-        
-      </div>
-
-      
-        <p class="research-authors research-content">with Catherine Asher and Robin Jacob</p>
       
 
       
