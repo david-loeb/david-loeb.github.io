@@ -9,8 +9,8 @@ website:
   navbar:
     left:
       - research.qmd
-      - software.qmd
       - teaching.qmd
+      - software.qmd
       - href: cv.qmd
         text: "CV"
       # - blog.qmd  # removing for now

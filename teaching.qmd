@@ -2,7 +2,7 @@
 title: "Teaching"
 ---
 
-I am currently teaching program evaluation to doctoral students at The University of Southern Mississippi. I have also taught several research and programming workshops, served as a teaching assistant, and mentored education policy master's students.
+I am currently teaching program evaluation to doctoral students at The University of Southern Mississippi. I have also taught several research and programming workshops.
 
 ## Courses
 
@@ -33,7 +33,3 @@ A document classification demonstration in Python conducted for my master's stud
 ### {{< iconify fa-brands python >}} [Web Scraping with Python](https://davidloeb.co/web-scraping-py-wkshp/#/title-slide){target="_blank"}
 
 An introduction to web scraping in Python conducted for a small group doctoral students in September 2023. [View the workshop slides here](https://davidloeb.co/web-scraping-py-wkshp/#/title-slide){target="_blank"}. A Python script with code for the workflow discussed and the workshop slides source code are [available on {{< iconify fa github >}} GitHub](https://github.com/david-loeb/web-scraping-py-wkshp){target="_blank"}.
-
-## Mentorship
-
-I mentored a research team of five education policy master's students at the University of Pennsylvania during the winter and spring of 2024.
